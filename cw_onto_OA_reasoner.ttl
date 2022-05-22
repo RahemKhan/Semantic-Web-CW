@@ -1,0 +1,4051 @@
+@prefix : <http://www.semanticweb.org/in3067-inm713/restaurants#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dc:creator a owl:AnnotationProperty ;
+    owl:sameAs dc:creator .
+
+: a owl:Ontology ;
+    dc:creator "Ernesto JImenez Ruiz"^^xsd:string ;
+    owl:sameAs : .
+
+:DaiyaCheese a _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :VeganCheese,
+        :VeganIngredient,
+        :VegetarianIngredient,
+        owl:NamedIndividual,
+        owl:Thing ;
+    rdfs:label "Daiya cheese" ;
+    rdfs:comment "Daiya is a brand of dairy-free products" ;
+    owl:sameAs :DaiyaCheese .
+
+:EUR a :Currency,
+        owl:NamedIndividual,
+        owl:Thing ;
+    owl:sameAs :EUR .
+
+:GBP a :Currency,
+        owl:NamedIndividual,
+        owl:Thing ;
+    owl:sameAs :GBP .
+
+:USD a :Currency,
+        owl:NamedIndividual,
+        owl:Thing ;
+    owl:sameAs :USD .
+
+:little_Pizza_Paradise_Bend a _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        :Pizzeria,
+        :Restaurant,
+        owl:NamedIndividual,
+        owl:Thing ;
+    :serves :bianca_pizza_little_pizza_paradise_bend ;
+    owl:sameAs :little_Pizza_Paradise_Bend ;
+    owl:topObjectProperty :bianca_pizza_little_pizza_paradise_bend .
+
+:the_brentwood_los_angeles a owl:NamedIndividual ;
+    owl:sameAs :the_brentwood_los_angeles .
+
+rdf:HTML a rdfs:Datatype ;
+    owl:sameAs rdf:HTML .
+
+rdf:PlainLiteral a rdfs:Datatype ;
+    owl:sameAs rdf:PlainLiteral .
+
+rdf:XMLLiteral a rdfs:Datatype ;
+    owl:sameAs rdf:XMLLiteral .
+
+rdf:first owl:sameAs rdf:first .
+
+rdf:langString a rdfs:Datatype ;
+    owl:sameAs rdf:langString .
+
+rdf:rest owl:sameAs rdf:rest .
+
+rdf:type owl:sameAs rdf:type .
+
+rdfs:Literal a rdfs:Datatype ;
+    owl:sameAs rdfs:Literal .
+
+rdfs:comment a owl:AnnotationProperty ;
+    owl:sameAs rdfs:comment .
+
+rdfs:domain owl:sameAs rdfs:domain .
+
+rdfs:isDefinedBy a owl:AnnotationProperty ;
+    owl:sameAs rdfs:isDefinedBy .
+
+rdfs:label a owl:AnnotationProperty ;
+    owl:sameAs rdfs:label .
+
+rdfs:range owl:sameAs rdfs:range .
+
+rdfs:seeAlso a owl:AnnotationProperty ;
+    owl:sameAs rdfs:seeAlso .
+
+rdfs:subClassOf owl:sameAs rdfs:subClassOf .
+
+rdfs:subPropertyOf owl:sameAs rdfs:subPropertyOf .
+
+xsd:NCName a rdfs:Datatype ;
+    owl:sameAs xsd:NCName .
+
+xsd:NMTOKEN a rdfs:Datatype ;
+    owl:sameAs xsd:NMTOKEN .
+
+xsd:Name a rdfs:Datatype ;
+    owl:sameAs xsd:Name .
+
+xsd:anyURI a rdfs:Datatype ;
+    owl:sameAs xsd:anyURI .
+
+xsd:base64Binary a rdfs:Datatype ;
+    owl:sameAs xsd:base64Binary .
+
+xsd:boolean a rdfs:Datatype ;
+    owl:sameAs xsd:boolean .
+
+xsd:byte a rdfs:Datatype ;
+    owl:sameAs xsd:byte .
+
+xsd:date a rdfs:Datatype ;
+    owl:sameAs xsd:date .
+
+xsd:dateTime a rdfs:Datatype ;
+    owl:sameAs xsd:dateTime .
+
+xsd:dateTimeStamp a rdfs:Datatype ;
+    owl:sameAs xsd:dateTimeStamp .
+
+xsd:decimal a rdfs:Datatype ;
+    owl:sameAs xsd:decimal .
+
+xsd:float a rdfs:Datatype ;
+    owl:sameAs xsd:float .
+
+xsd:hexBinary a rdfs:Datatype ;
+    owl:sameAs xsd:hexBinary .
+
+xsd:int a rdfs:Datatype ;
+    owl:sameAs xsd:int .
+
+xsd:integer a rdfs:Datatype ;
+    owl:sameAs xsd:integer .
+
+xsd:language a rdfs:Datatype ;
+    owl:sameAs xsd:language .
+
+xsd:long a rdfs:Datatype ;
+    owl:sameAs xsd:long .
+
+xsd:negativeInteger a rdfs:Datatype ;
+    owl:sameAs xsd:negativeInteger .
+
+xsd:nonNegativeInteger a rdfs:Datatype ;
+    owl:sameAs xsd:nonNegativeInteger .
+
+xsd:nonPositiveInteger a rdfs:Datatype ;
+    owl:sameAs xsd:nonPositiveInteger .
+
+xsd:normalizedString a rdfs:Datatype ;
+    owl:sameAs xsd:normalizedString .
+
+xsd:positiveInteger a rdfs:Datatype ;
+    owl:sameAs xsd:positiveInteger .
+
+xsd:short a rdfs:Datatype ;
+    owl:sameAs xsd:short .
+
+xsd:time a rdfs:Datatype ;
+    owl:sameAs xsd:time .
+
+xsd:token a rdfs:Datatype ;
+    owl:sameAs xsd:token .
+
+xsd:unsignedByte a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedByte .
+
+xsd:unsignedInt a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedInt .
+
+xsd:unsignedLong a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedLong .
+
+xsd:unsignedShort a rdfs:Datatype ;
+    owl:sameAs xsd:unsignedShort .
+
+owl:allValuesFrom owl:sameAs owl:allValuesFrom .
+
+owl:backwardCompatibleWith a owl:AnnotationProperty ;
+    owl:sameAs owl:backwardCompatibleWith .
+
+owl:deprecated a owl:AnnotationProperty ;
+    owl:sameAs owl:deprecated .
+
+owl:disjointWith owl:sameAs owl:disjointWith .
+
+owl:equivalentClass owl:sameAs owl:equivalentClass .
+
+owl:equivalentProperty owl:sameAs owl:equivalentProperty .
+
+owl:incompatibleWith a owl:AnnotationProperty ;
+    owl:sameAs owl:incompatibleWith .
+
+owl:intersectionOf owl:sameAs owl:intersectionOf .
+
+owl:inverseOf owl:sameAs owl:inverseOf .
+
+owl:onProperty owl:sameAs owl:onProperty .
+
+owl:priorVersion a owl:AnnotationProperty ;
+    owl:sameAs owl:priorVersion .
+
+owl:sameAs owl:sameAs owl:sameAs .
+
+owl:someValuesFrom owl:sameAs owl:someValuesFrom .
+
+owl:unionOf owl:sameAs owl:unionOf .
+
+owl:versionInfo a owl:AnnotationProperty ;
+    owl:sameAs owl:versionInfo .
+
+skos:altLabel a owl:AnnotationProperty ;
+    owl:sameAs skos:altLabel .
+
+:capers a _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Capers,
+        :Food,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:NamedIndividual,
+        owl:Thing ;
+    :isIngredientOf :pizza_putanesca_the_brentwood_los_angeles ;
+    owl:sameAs :capers .
+
+:olive a _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Olives,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:NamedIndividual,
+        owl:Thing ;
+    :isIngredientOf :pizza_putanesca_the_brentwood_los_angeles ;
+    owl:sameAs :olive .
+
+:onion a _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Onion,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:NamedIndividual,
+        owl:Thing ;
+    :isIngredientOf :pizza_putanesca_the_brentwood_los_angeles ;
+    owl:sameAs :onion .
+
+:tomato a _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Tomato,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:NamedIndividual,
+        owl:Thing ;
+    :isIngredientOf :pizza_putanesca_the_brentwood_los_angeles ;
+    owl:sameAs :tomato .
+
+owl:Ontology owl:sameAs owl:Ontology .
+
+"Address" owl:sameAs "Address" .
+
+"American pizza" owl:sameAs "American pizza" .
+
+"American restaurant" owl:sameAs "American restaurant" .
+
+"Artichoke" owl:sameAs "Artichoke" .
+
+"Asian restaurant" owl:sameAs "Asian restaurant" .
+
+"Aubergine" owl:sameAs "Aubergine" .
+
+"BBQ pizza" owl:sameAs "BBQ pizza" .
+
+"BBQ sauce" owl:sameAs "BBQ sauce" .
+
+"Bacon" owl:sameAs "Bacon" .
+
+"Bakery" owl:sameAs "Bakery" .
+
+"Bar" owl:sameAs "Bar" .
+
+"Bar and Grill" owl:sameAs "Bar and Grill" .
+
+"Barbecue pizza" owl:sameAs "Barbecue pizza" .
+
+"Barbecue sause" owl:sameAs "Barbecue sause" .
+
+"Bars, pubs and clubs" owl:sameAs "Bars, pubs and clubs" .
+
+"Basil" owl:sameAs "Basil" .
+
+"Beans" owl:sameAs "Beans" .
+
+"Beans pizza" owl:sameAs "Beans pizza" .
+
+"Beef" owl:sameAs "Beef" .
+
+"Beer place" owl:sameAs "Beer place" .
+
+"Beer tavern" owl:sameAs "Beer tavern" .
+
+"Black olives" owl:sameAs "Black olives" .
+
+"Blue cheese" owl:sameAs "Blue cheese" .
+
+"Broccoli" owl:sameAs "Broccoli" .
+
+"Burger place" owl:sameAs "Burger place" .
+
+"ButternutSquash" owl:sameAs "ButternutSquash" .
+
+"Cafeteria" owl:sameAs "Cafeteria" .
+
+"Californian pizza" owl:sameAs "Californian pizza" .
+
+"Capers" owl:sameAs "Capers" .
+
+"Carrot" owl:sameAs "Carrot" .
+
+"Cheddar" owl:sameAs "Cheddar" .
+
+"Cherry tomato" owl:sameAs "Cherry tomato" .
+
+"Chicken" owl:sameAs "Chicken" .
+
+"Chicken pizza" owl:sameAs "Chicken pizza" .
+
+"Chinese restaurant" owl:sameAs "Chinese restaurant" .
+
+"Chorizo" owl:sameAs "Chorizo" .
+
+"City" owl:sameAs "City" .
+
+"Club" owl:sameAs "Club" .
+
+"Cocktail bars" owl:sameAs "Cocktail bars" .
+
+"Coffee shop" owl:sameAs "Coffee shop" .
+
+"Country" owl:sameAs "Country" .
+
+"Crab meat" owl:sameAs "Crab meat" .
+
+"Currency" owl:sameAs "Currency" .
+
+"Dairy-free cheese" owl:sameAs "Dairy-free cheese" .
+
+"Daiya cheese" owl:sameAs "Daiya cheese" .
+
+"Daiya is a brand of dairy-free products" owl:sameAs "Daiya is a brand of dairy-free products" .
+
+"Dietary restaurant" owl:sameAs "Dietary restaurant" .
+
+"Eggplant" owl:sameAs "Eggplant" .
+
+"Ernesto JImenez Ruiz"^^xsd:string a xsd:string ;
+    owl:sameAs "Ernesto JImenez Ruiz"^^xsd:string .
+
+"Feta" owl:sameAs "Feta" .
+
+"Feta pizza" owl:sameAs "Feta pizza" .
+
+"Fig" owl:sameAs "Fig" .
+
+"Food" owl:sameAs "Food" .
+
+"For simplicity, this ontology relies on the common language usage of \"fruit\" (i.e., sweet fruit)." owl:sameAs "For simplicity, this ontology relies on the common language usage of \"fruit\" (i.e., sweet fruit)." .
+
+"For simplicity, this ontology relies on the original meaning to refer to all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds." owl:sameAs "For simplicity, this ontology relies on the original meaning to refer to all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds." .
+
+"French restaurant" owl:sameAs "French restaurant" .
+
+"Fruit" owl:sameAs "Fruit" .
+
+"Fruit pizza" owl:sameAs "Fruit pizza" .
+
+"Funghi pizza" owl:sameAs "Funghi pizza" .
+
+"Garlic" owl:sameAs "Garlic" .
+
+"Gastro pub" owl:sameAs "Gastro pub" .
+
+"Gluten-free restaurant" owl:sameAs "Gluten-free restaurant" .
+
+"Goat cheese" owl:sameAs "Goat cheese" .
+
+"Gorgonzola" owl:sameAs "Gorgonzola" .
+
+"Gourmet restaurants" owl:sameAs "Gourmet restaurants" .
+
+"Greek pizza" owl:sameAs "Greek pizza" .
+
+"Greek restaurant" owl:sameAs "Greek restaurant" .
+
+"Green olives" owl:sameAs "Green olives" .
+
+"Green pepper" owl:sameAs "Green pepper" .
+
+"Ham" owl:sameAs "Ham" .
+
+"Hawaiian pizza" owl:sameAs "Hawaiian pizza" .
+
+"Herbs" owl:sameAs "Herbs" .
+
+"Hot sauce" owl:sameAs "Hot sauce" .
+
+"Indian restaurant" owl:sameAs "Indian restaurant" .
+
+"Ingredient" owl:sameAs "Ingredient" .
+
+"Italian restaurant" owl:sameAs "Italian restaurant" .
+
+"Item value" owl:sameAs "Item value" .
+
+"Jalapeno pepper" owl:sameAs "Jalapeno pepper" .
+
+"Japanese pizza" owl:sameAs "Japanese pizza" .
+
+"Japanese restaurant" owl:sameAs "Japanese restaurant" .
+
+"Karaoke bar" owl:sameAs "Karaoke bar" .
+
+"Location" owl:sameAs "Location" .
+
+"Margherita pizza" owl:sameAs "Margherita pizza" .
+
+"Marinara" owl:sameAs "Marinara" .
+
+"Meat" owl:sameAs "Meat" .
+
+"Meat pizza" owl:sameAs "Meat pizza" .
+
+"Meatballs" owl:sameAs "Meatballs" .
+
+"Meaty pizza" owl:sameAs "Meaty pizza" .
+
+"Mediterranean restaurant" owl:sameAs "Mediterranean restaurant" .
+
+"Menu item" owl:sameAs "Menu item" .
+
+"Mexican pizza" owl:sameAs "Mexican pizza" .
+
+"Mexican restaurant" owl:sameAs "Mexican restaurant" .
+
+"Mortadella" owl:sameAs "Mortadella" .
+
+"Mozzarella" owl:sameAs "Mozzarella" .
+
+"Mushroom" owl:sameAs "Mushroom" .
+
+"Mushroom pizza" owl:sameAs "Mushroom pizza" .
+
+"Olive oil" owl:sameAs "Olive oil" .
+
+"Olives" owl:sameAs "Olives" .
+
+"Onion" owl:sameAs "Onion" .
+
+"Oregano" owl:sameAs "Oregano" .
+
+"Organized pizzas by ingredient" owl:sameAs "Organized pizzas by ingredient" .
+
+"Organizes pizzas by their style" owl:sameAs "Organizes pizzas by their style" .
+
+"Pancetta" owl:sameAs "Pancetta" .
+
+"Parmesan" owl:sameAs "Parmesan" .
+
+"Pepper" owl:sameAs "Pepper" .
+
+"Pepperoni" owl:sameAs "Pepperoni" .
+
+"Pepperoni sausage" owl:sameAs "Pepperoni sausage" .
+
+"Pesto" owl:sameAs "Pesto" .
+
+"Pineapple" owl:sameAs "Pineapple" .
+
+"Pineapple pizza" owl:sameAs "Pineapple pizza" .
+
+"Pizza" owl:sameAs "Pizza" .
+
+"Pizza Napolitana" owl:sameAs "Pizza Napolitana" .
+
+"Pizza Nutella" owl:sameAs "Pizza Nutella" .
+
+"Pizza Romana" owl:sameAs "Pizza Romana" .
+
+"Pizza bianca" owl:sameAs "Pizza bianca" .
+
+"Pizza marinara" owl:sameAs "Pizza marinara" .
+
+"Pizza place" owl:sameAs "Pizza place" .
+
+"Pizza supreme" owl:sameAs "Pizza supreme" .
+
+"Pizza without tomato sauce" owl:sameAs "Pizza without tomato sauce" .
+
+"Pizzeria" owl:sameAs "Pizzeria" .
+
+"Plum tomato" owl:sameAs "Plum tomato" .
+
+"Potato" owl:sameAs "Potato" .
+
+"Prosciutto" owl:sameAs "Prosciutto" .
+
+"Provolone" owl:sameAs "Provolone" .
+
+"Pub" owl:sameAs "Pub" .
+
+"Pumpkin" owl:sameAs "Pumpkin" .
+
+"Red pepper" owl:sameAs "Red pepper" .
+
+"Restaurant" owl:sameAs "Restaurant" .
+
+"Ricotta" owl:sameAs "Ricotta" .
+
+"Root vegetable" owl:sameAs "Root vegetable" .
+
+"Rosemary" owl:sameAs "Rosemary" .
+
+"Salami" owl:sameAs "Salami" .
+
+"Salmon" owl:sameAs "Salmon" .
+
+"Sauce" owl:sameAs "Sauce" .
+
+"Sausage" owl:sameAs "Sausage" .
+
+"Scallop" owl:sameAs "Scallop" .
+
+"Seafood" owl:sameAs "Seafood" .
+
+"Seafood pizza" owl:sameAs "Seafood pizza" .
+
+"Seafood restaurant" owl:sameAs "Seafood restaurant" .
+
+"Seeds" owl:sameAs "Seeds" .
+
+"Shrimp" owl:sameAs "Shrimp" .
+
+"Spanish restaurant" owl:sameAs "Spanish restaurant" .
+
+"Spinach" owl:sameAs "Spinach" .
+
+"Sports bar" owl:sameAs "Sports bar" .
+
+"State" owl:sameAs "State" .
+
+"Sushi restaurant" owl:sameAs "Sushi restaurant" .
+
+"Sweet pizza" owl:sameAs "Sweet pizza" .
+
+"Sweet potato" owl:sameAs "Sweet potato" .
+
+"Tofu" owl:sameAs "Tofu" .
+
+"Tomato" owl:sameAs "Tomato" .
+
+"Tomato sauce" owl:sameAs "Tomato sauce" .
+
+"Tuna" owl:sameAs "Tuna" .
+
+"Vegan cheese" owl:sameAs "Vegan cheese" .
+
+"Vegan ingredient" owl:sameAs "Vegan ingredient" .
+
+"Vegan pizza" owl:sameAs "Vegan pizza" .
+
+"Vegan restaurant" owl:sameAs "Vegan restaurant" .
+
+"Vegetable" owl:sameAs "Vegetable" .
+
+"Vegetarian pizza" owl:sameAs "Vegetarian pizza" .
+
+"Vegetarian restaurant" owl:sameAs "Vegetarian restaurant" .
+
+"White pizza" owl:sameAs "White pizza" .
+
+"Winter squash" owl:sameAs "Winter squash" .
+
+"Yellow pepper" owl:sameAs "Yellow pepper" .
+
+"Zucchini" owl:sameAs "Zucchini" .
+
+:bianca_pizza_little_pizza_paradise_bend a _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaBianca,
+        :PizzaByStyle,
+        owl:NamedIndividual,
+        owl:Thing ;
+    owl:sameAs :bianca_pizza_little_pizza_paradise_bend .
+
+:hasAdress a owl:ObjectProperty ;
+    rdfs:domain _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    rdfs:range _:N00d2b6d316bf44c1b0a8fe58bd272a6d,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nc1eecc0b1f304a799e48346360ca172c,
+        _:Ne6f532c3e9444771882676a9e1a2c433,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Address,
+        :Location,
+        owl:Thing ;
+    rdfs:subPropertyOf :hasAdress,
+        :hasLocation,
+        owl:topObjectProperty ;
+    owl:equivalentProperty :hasAdress ;
+    owl:sameAs :hasAdress .
+
+:hasCity a owl:ObjectProperty ;
+    rdfs:domain _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    rdfs:range _:N3e011e729d424be7a003cb6585ece47c,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nba0a789eccae45ed811526493a8d53fd,
+        _:Ndca1a9f07e1a44b9bd0f91eb287c2083,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :City,
+        :Location,
+        owl:Thing ;
+    rdfs:subPropertyOf :hasCity,
+        :hasLocation,
+        owl:topObjectProperty ;
+    owl:equivalentProperty :hasCity ;
+    owl:sameAs :hasCity .
+
+:hasState a owl:ObjectProperty ;
+    rdfs:domain _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    rdfs:range _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nba0a789eccae45ed811526493a8d53fd,
+        _:Ndca1a9f07e1a44b9bd0f91eb287c2083,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        :State,
+        owl:Thing ;
+    rdfs:subPropertyOf :hasLocation,
+        :hasState,
+        owl:topObjectProperty ;
+    owl:equivalentProperty :hasState ;
+    owl:sameAs :hasState .
+
+xsd:double a rdfs:Datatype ;
+    owl:sameAs xsd:double .
+
+owl:Nothing a owl:Class ;
+    rdfs:subClassOf _:N00d2b6d316bf44c1b0a8fe58bd272a6d,
+        _:N0ad4b53aa65f43ed8c0f8fe9dafcc05d,
+        _:N0fc53974d4f34a95ab4dd0316f584d03,
+        _:N1bd6aa0334934b4d9f74792a7356f867,
+        _:N1d36d3296f994f3a91ebafbe157ff783,
+        _:N20b74a32b82b4ba1a691bacbb56a8600,
+        _:N2449cd45881d4702af9a47ffdfc31d23,
+        _:N295ea8851b27406db6d5016859901f34,
+        _:N3345e67980b94677b09a29ce405c9155,
+        _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N38720955981c44099f1e3fddf5bed016,
+        _:N3abed24447964141af52741ea6ad1737,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N3e011e729d424be7a003cb6585ece47c,
+        _:N4c462f9e26ca4fc1a6171426d5a6203d,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N571b6dfd027b4ed9932ae40c4f17097c,
+        _:N57e021778be24cfdb11e44da14bf06aa,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N68293be50b95402596980d3b784ff61b,
+        _:N6a6ba520912443bebb3752a67a4e36c6,
+        _:N6d86ac76a2894760a540c0e4e3e88237,
+        _:N75bcef6b97b942e099d8ebe6dd1bd6a6,
+        _:N76cce3bc2ff14f918ce464fe869479c6,
+        _:N76f1cb4d3ea84fbcafc258713b1890e8,
+        _:N7bddde250a534bb2855cdefb526ce4e5,
+        _:N7c5027843f5b460296de2475b166446e,
+        _:N8bb554679b32466186e1134c73d66a26,
+        _:N9142c769daf643dcb88c0b63dcd45f60,
+        _:N94b53c4f97854644895c10fc3cf3aa01,
+        _:N99b5df6d511e45e995786b67c13b4a42,
+        _:N9a9e7f316d5644729782af5415179e13,
+        _:N9c525073661b4389a6b9ccbe6bebfe8a,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Na0ccdc83cb6946a0ae5381bbdc1ff466,
+        _:Na846e5df632f4fb3a9eb83fe65a14de3,
+        _:Naf44e70489ad422593c9ada90823d265,
+        _:Nb2cf0ef8120b46b4a43b28a03c846931,
+        _:Nb3c6cb428d004feb94e435ee1c6e7f9b,
+        _:Nba0a789eccae45ed811526493a8d53fd,
+        _:Nc1eecc0b1f304a799e48346360ca172c,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19,
+        _:Nd7675d8755674451a9a0b5f755d68fb1,
+        _:Nd816f1fd3f0f4233912ba8624739baef,
+        _:Nda8f0e5ce0fa446288c9e25710b016c8,
+        _:Ndca1a9f07e1a44b9bd0f91eb287c2083,
+        _:Ndd0f301c75764e218132f8d33e9220a5,
+        _:Ne51e7165eee2476abfff0bf62ae6f1ef,
+        _:Ne6f532c3e9444771882676a9e1a2c433,
+        _:Necf9a7a220ee4de79051f3de7837ea93,
+        _:Ned6991161f074ba0a35c44ed315b8d7d,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        _:Nf2c9af8bd4844523a661984b4d025f77,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        _:Nfd2a6adc91064cde86a1c7bfd25b7348,
+        :Address,
+        :AmericanPizza,
+        :AmericanRestaurant,
+        :Artichokes,
+        :AsianRestaurant,
+        :Bacon,
+        :Bakery,
+        :Bar,
+        :BarAndGrill,
+        :BarbecuePizza,
+        :BarbecueSauce,
+        :BarsPubsClubs,
+        :Basil,
+        :Beans,
+        :BeansPizza,
+        :Beef,
+        :BeerPlace,
+        :BlackOlives,
+        :BlueCheese,
+        :Broccoli,
+        :BurgerPlace,
+        :ButternutSquash,
+        :CalifornianPizza,
+        :Capers,
+        :Carrot,
+        :Cheddar,
+        :Cheese,
+        :CherryTomato,
+        :Chicken,
+        :ChickenPizza,
+        :ChineseRestaurant,
+        :Chorizo,
+        :City,
+        :Club,
+        :CocktailBars,
+        :CoffeeShop,
+        :Country,
+        :CrabMeat,
+        :Currency,
+        :DietaryRestaurant,
+        :Eggplant,
+        :Feta,
+        :FetaPizza,
+        :Fig,
+        :Food,
+        :FrenchRestaurant,
+        :Fruit,
+        :FruitPizza,
+        :Garlic,
+        :Gastropub,
+        :GlutenFreeRestaurant,
+        :GoatCheese,
+        :Gorgonzola,
+        :GourmetRestaurants,
+        :GreekPizza,
+        :GreekRestaurant,
+        :GreenOlives,
+        :GreenPepper,
+        :Ham,
+        :HawaiianPizza,
+        :Herbs,
+        :HotSauce,
+        :IndianRestaurant,
+        :Ingredient,
+        :ItalianRestaurant,
+        :ItemValue,
+        :JalapenoPepper,
+        :JapanesePizza,
+        :JapaneseRestaurant,
+        :KaraokeBar,
+        :Location,
+        :MargheritaPizza,
+        :Marinara,
+        :Meat,
+        :MeatPizza,
+        :Meatballs,
+        :MediterraneanRestaurant,
+        :MenuItem,
+        :MexicanPizza,
+        :MexicanRestaurant,
+        :Mortadella,
+        :Mozzarella,
+        :Mushroom,
+        :MushroomPizza,
+        :NamedPizza,
+        :OliveOil,
+        :Olives,
+        :Onion,
+        :Oregano,
+        :Parmesan,
+        :Pepper,
+        :Pepperoni,
+        :Pesto,
+        :Pineapple,
+        :PineapplePizza,
+        :Pizza,
+        :PizzaBianca,
+        :PizzaByIngredient,
+        :PizzaByStyle,
+        :PizzaMarinara,
+        :PizzaNapolitana,
+        :PizzaNutella,
+        :PizzaRomana,
+        :PizzaSupreme,
+        :Pizzeria,
+        :PlumTomato,
+        :Potato,
+        :Prosciutto,
+        :Provolone,
+        :Pub,
+        :Pumpkin,
+        :RedPepper,
+        :Restaurant,
+        :Ricotta,
+        :RootVegetable,
+        :Rosemary,
+        :Salami,
+        :Salmon,
+        :Sauce,
+        :Sausage,
+        :Scallops,
+        :SeaFood,
+        :SeafoodPizza,
+        :SeafoodRestaurant,
+        :Seeds,
+        :Shrimp,
+        :SpanishRestaurant,
+        :Spinach,
+        :SportsBar,
+        :State,
+        :SushiRestaurant,
+        :SweetPizza,
+        :SweetPotato,
+        :Tofu,
+        :Tomato,
+        :TomatoSauce,
+        :Tuna,
+        :VeganCheese,
+        :VeganIngredient,
+        :VeganPizza,
+        :VeganRestaurant,
+        :Vegetable,
+        :VegetarianIngredient,
+        :VegetarianPizza,
+        :VegetarianRestaurant,
+        :WinterSquash,
+        :YellowPepper,
+        :Zucchini,
+        owl:Nothing,
+        owl:Thing ;
+    owl:equivalentClass owl:Nothing ;
+    owl:sameAs owl:Nothing .
+
+owl:TransitiveProperty owl:sameAs owl:TransitiveProperty .
+
+:Artichokes a owl:Class ;
+    rdfs:label "Artichoke" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Artichokes,
+        :Food,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Artichokes ;
+    owl:sameAs :Artichokes .
+
+:Bacon a owl:Class ;
+    rdfs:label "Bacon" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Bacon,
+        :Food,
+        :Ingredient,
+        :Meat,
+        owl:Thing ;
+    owl:equivalentClass :Bacon ;
+    owl:sameAs :Bacon ;
+    skos:altLabel "Pancetta" .
+
+:Bakery a owl:Class ;
+    rdfs:label "Bakery" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Bakery,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :Bakery ;
+    owl:sameAs :Bakery .
+
+:BarAndGrill a owl:Class ;
+    rdfs:label "Bar and Grill" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :BarAndGrill,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :BarAndGrill ;
+    owl:sameAs :BarAndGrill .
+
+:BarbecuePizza a owl:Class ;
+    rdfs:label "Barbecue pizza" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nb2cf0ef8120b46b4a43b28a03c846931,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :BarbecuePizza,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByIngredient,
+        owl:Thing ;
+    owl:equivalentClass :BarbecuePizza ;
+    owl:sameAs :BarbecuePizza ;
+    skos:altLabel "BBQ pizza" .
+
+:BeansPizza a owl:Class ;
+    rdfs:label "Beans pizza" ;
+    rdfs:subClassOf _:N3abed24447964141af52741ea6ad1737,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N6d86ac76a2894760a540c0e4e3e88237,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :BeansPizza,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByIngredient,
+        owl:Thing ;
+    owl:equivalentClass :BeansPizza ;
+    owl:sameAs :BeansPizza .
+
+:Beef a owl:Class ;
+    rdfs:label "Beef" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Beef,
+        :Food,
+        :Ingredient,
+        :Meat,
+        owl:Thing ;
+    owl:equivalentClass :Beef ;
+    owl:sameAs :Beef .
+
+:BeerPlace a owl:Class ;
+    rdfs:label "Beer place" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :BarsPubsClubs,
+        :BeerPlace,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :BeerPlace ;
+    owl:sameAs :BeerPlace ;
+    skos:altLabel "Beer tavern" .
+
+:BlackOlives a owl:Class ;
+    rdfs:label "Black olives" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :BlackOlives,
+        :Food,
+        :Ingredient,
+        :Olives,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :BlackOlives ;
+    owl:sameAs :BlackOlives .
+
+:BlueCheese a owl:Class ;
+    rdfs:label "Blue cheese" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :BlueCheese,
+        :Cheese,
+        :Food,
+        :Ingredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :BlueCheese ;
+    owl:sameAs :BlueCheese .
+
+:Broccoli a owl:Class ;
+    rdfs:label "Broccoli" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Broccoli,
+        :Food,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Broccoli ;
+    owl:sameAs :Broccoli .
+
+:BurgerPlace a owl:Class ;
+    rdfs:label "Burger place" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :BurgerPlace,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :BurgerPlace ;
+    owl:sameAs :BurgerPlace .
+
+:ButternutSquash a owl:Class ;
+    rdfs:label "ButternutSquash" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :ButternutSquash,
+        :Food,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        :WinterSquash,
+        owl:Thing ;
+    owl:equivalentClass :ButternutSquash ;
+    owl:sameAs :ButternutSquash .
+
+:CalifornianPizza a owl:Class ;
+    rdfs:label "Californian pizza" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :AmericanPizza,
+        :CalifornianPizza,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass :CalifornianPizza ;
+    owl:sameAs :CalifornianPizza .
+
+:Carrot a owl:Class ;
+    rdfs:label "Carrot" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Carrot,
+        :Food,
+        :Ingredient,
+        :RootVegetable,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Carrot ;
+    owl:sameAs :Carrot .
+
+:Cheddar a owl:Class ;
+    rdfs:label "Cheddar" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Cheddar,
+        :Cheese,
+        :Food,
+        :Ingredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Cheddar ;
+    owl:sameAs :Cheddar .
+
+:CherryTomato a owl:Class ;
+    rdfs:label "Cherry tomato" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :CherryTomato,
+        :Food,
+        :Ingredient,
+        :Tomato,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :CherryTomato ;
+    owl:sameAs :CherryTomato .
+
+:ChickenPizza a owl:Class ;
+    rdfs:label "Chicken pizza" ;
+    rdfs:subClassOf _:N0fc53974d4f34a95ab4dd0316f584d03,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Ndd0f301c75764e218132f8d33e9220a5,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :ChickenPizza,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByIngredient,
+        owl:Thing ;
+    owl:equivalentClass :ChickenPizza ;
+    owl:sameAs :ChickenPizza .
+
+:ChineseRestaurant a owl:Class ;
+    rdfs:label "Chinese restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :AsianRestaurant,
+        :ChineseRestaurant,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :ChineseRestaurant ;
+    owl:sameAs :ChineseRestaurant .
+
+:Chorizo a owl:Class ;
+    rdfs:label "Chorizo" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Chorizo,
+        :Food,
+        :Ingredient,
+        :Meat,
+        owl:Thing ;
+    owl:equivalentClass :Chorizo ;
+    owl:sameAs :Chorizo .
+
+:Club a owl:Class ;
+    rdfs:label "Club" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :BarsPubsClubs,
+        :Club,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :Club ;
+    owl:sameAs :Club .
+
+:CocktailBars a owl:Class ;
+    rdfs:label "Cocktail bars" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Bar,
+        :BarsPubsClubs,
+        :CocktailBars,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :CocktailBars ;
+    owl:sameAs :CocktailBars .
+
+:CoffeeShop a owl:Class ;
+    rdfs:label "Coffee shop" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :CoffeeShop,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :CoffeeShop ;
+    owl:sameAs :CoffeeShop ;
+    skos:altLabel "Cafeteria" .
+
+:CrabMeat a owl:Class ;
+    rdfs:label "Crab meat" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :CrabMeat,
+        :Food,
+        :Ingredient,
+        :SeaFood,
+        owl:Thing ;
+    owl:equivalentClass :CrabMeat ;
+    owl:sameAs :CrabMeat .
+
+:Eggplant a owl:Class ;
+    rdfs:label "Eggplant" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Eggplant,
+        :Food,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Eggplant ;
+    owl:sameAs :Eggplant ;
+    skos:altLabel "Aubergine" .
+
+:FetaPizza a owl:Class ;
+    rdfs:label "Feta pizza" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N6a6ba520912443bebb3752a67a4e36c6,
+        _:Nb3c6cb428d004feb94e435ee1c6e7f9b,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :FetaPizza,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByIngredient,
+        owl:Thing ;
+    owl:equivalentClass :FetaPizza ;
+    owl:sameAs :FetaPizza .
+
+:Fig a owl:Class ;
+    rdfs:label "Fig" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Fig,
+        :Food,
+        :Fruit,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Fig ;
+    owl:sameAs :Fig .
+
+:FrenchRestaurant a owl:Class ;
+    rdfs:label "French restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :FrenchRestaurant,
+        :Location,
+        :MediterraneanRestaurant,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :FrenchRestaurant ;
+    owl:sameAs :FrenchRestaurant .
+
+:Gastropub a owl:Class ;
+    rdfs:label "Gastro pub" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :BarsPubsClubs,
+        :Gastropub,
+        :Location,
+        :Pub,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :Gastropub ;
+    owl:sameAs :Gastropub .
+
+:GlutenFreeRestaurant a owl:Class ;
+    rdfs:label "Gluten-free restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :DietaryRestaurant,
+        :GlutenFreeRestaurant,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :GlutenFreeRestaurant ;
+    owl:sameAs :GlutenFreeRestaurant .
+
+:GoatCheese a owl:Class ;
+    rdfs:label "Goat cheese" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Cheese,
+        :Food,
+        :GoatCheese,
+        :Ingredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :GoatCheese ;
+    owl:sameAs :GoatCheese .
+
+:Gorgonzola a owl:Class ;
+    rdfs:label "Gorgonzola" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Cheese,
+        :Food,
+        :Gorgonzola,
+        :Ingredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Gorgonzola ;
+    owl:sameAs :Gorgonzola .
+
+:GourmetRestaurants a owl:Class ;
+    rdfs:label "Gourmet restaurants" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :GourmetRestaurants,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :GourmetRestaurants ;
+    owl:sameAs :GourmetRestaurants .
+
+:GreekRestaurant a owl:Class ;
+    rdfs:label "Greek restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :GreekRestaurant,
+        :Location,
+        :MediterraneanRestaurant,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :GreekRestaurant ;
+    owl:sameAs :GreekRestaurant .
+
+:GreenOlives a owl:Class ;
+    rdfs:label "Green olives" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :GreenOlives,
+        :Ingredient,
+        :Olives,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :GreenOlives ;
+    owl:sameAs :GreenOlives .
+
+:GreenPepper a owl:Class ;
+    rdfs:label "Green pepper" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :GreenPepper,
+        :Ingredient,
+        :Pepper,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :GreenPepper ;
+    owl:sameAs :GreenPepper .
+
+:HawaiianPizza a owl:Class ;
+    rdfs:label "Hawaiian pizza" ;
+    rdfs:subClassOf _:N295ea8851b27406db6d5016859901f34,
+        _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N76f1cb4d3ea84fbcafc258713b1890e8,
+        _:N8bb554679b32466186e1134c73d66a26,
+        _:Na846e5df632f4fb3a9eb83fe65a14de3,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19,
+        _:Nd816f1fd3f0f4233912ba8624739baef,
+        _:Ndd0f301c75764e218132f8d33e9220a5,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :AmericanPizza,
+        :Food,
+        :HawaiianPizza,
+        :MenuItem,
+        :NamedPizza,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass :HawaiianPizza ;
+    owl:sameAs :HawaiianPizza .
+
+:HotSauce a owl:Class ;
+    rdfs:label "Hot sauce" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :HotSauce,
+        :Ingredient,
+        :Sauce,
+        owl:Thing ;
+    owl:equivalentClass :HotSauce ;
+    owl:sameAs :HotSauce .
+
+:IndianRestaurant a owl:Class ;
+    rdfs:label "Indian restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :AsianRestaurant,
+        :IndianRestaurant,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :IndianRestaurant ;
+    owl:sameAs :IndianRestaurant .
+
+:ItalianRestaurant a owl:Class ;
+    rdfs:label "Italian restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :ItalianRestaurant,
+        :Location,
+        :MediterraneanRestaurant,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :ItalianRestaurant ;
+    owl:sameAs :ItalianRestaurant .
+
+:JalapenoPepper a owl:Class ;
+    rdfs:label "Jalapeno pepper" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :JalapenoPepper,
+        :Pepper,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :JalapenoPepper ;
+    owl:sameAs :JalapenoPepper .
+
+:JapanesePizza a owl:Class ;
+    rdfs:label "Japanese pizza" ;
+    rdfs:subClassOf _:N1d36d3296f994f3a91ebafbe157ff783,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :JapanesePizza,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass :JapanesePizza ;
+    owl:sameAs :JapanesePizza .
+
+:KaraokeBar a owl:Class ;
+    rdfs:label "Karaoke bar" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Bar,
+        :BarsPubsClubs,
+        :KaraokeBar,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :KaraokeBar ;
+    owl:sameAs :KaraokeBar .
+
+:Marinara a owl:Class ;
+    rdfs:label "Marinara" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N7bddde250a534bb2855cdefb526ce4e5,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Marinara,
+        :Sauce,
+        :TomatoSauce,
+        :VeganIngredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Marinara ;
+    owl:sameAs :Marinara .
+
+:Meatballs a owl:Class ;
+    rdfs:label "Meatballs" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Meat,
+        :Meatballs,
+        owl:Thing ;
+    owl:equivalentClass :Meatballs ;
+    owl:sameAs :Meatballs .
+
+:MexicanRestaurant a owl:Class ;
+    rdfs:label "Mexican restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :AmericanRestaurant,
+        :Location,
+        :MexicanRestaurant,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :MexicanRestaurant ;
+    owl:sameAs :MexicanRestaurant .
+
+:Mortadella a owl:Class ;
+    rdfs:label "Mortadella" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Meat,
+        :Mortadella,
+        owl:Thing ;
+    owl:equivalentClass :Mortadella ;
+    owl:sameAs :Mortadella .
+
+:MushroomPizza a owl:Class ;
+    rdfs:label "Mushroom pizza" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N75bcef6b97b942e099d8ebe6dd1bd6a6,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :MushroomPizza,
+        :Pizza,
+        :PizzaByIngredient,
+        owl:Thing ;
+    owl:equivalentClass :MushroomPizza ;
+    owl:sameAs :MushroomPizza ;
+    skos:altLabel "Funghi pizza" .
+
+:OliveOil a owl:Class ;
+    rdfs:label "Olive oil" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :OliveOil,
+        :VeganIngredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :OliveOil ;
+    owl:sameAs :OliveOil .
+
+:Oregano a owl:Class ;
+    rdfs:label "Oregano" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Herbs,
+        :Ingredient,
+        :Oregano,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Oregano ;
+    owl:sameAs :Oregano .
+
+:Parmesan a owl:Class ;
+    rdfs:label "Parmesan" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Cheese,
+        :Food,
+        :Ingredient,
+        :Parmesan,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Parmesan ;
+    owl:sameAs :Parmesan .
+
+:Pesto a owl:Class ;
+    rdfs:label "Pesto" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Pesto,
+        :Sauce,
+        owl:Thing ;
+    owl:equivalentClass :Pesto ;
+    owl:sameAs :Pesto .
+
+:PineapplePizza a owl:Class ;
+    rdfs:label "Pineapple pizza" ;
+    rdfs:subClassOf _:N295ea8851b27406db6d5016859901f34,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Na846e5df632f4fb3a9eb83fe65a14de3,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd816f1fd3f0f4233912ba8624739baef,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :PineapplePizza,
+        :Pizza,
+        :PizzaByIngredient,
+        owl:Thing ;
+    owl:equivalentClass :PineapplePizza ;
+    owl:sameAs :PineapplePizza .
+
+:PizzaMarinara a owl:Class ;
+    rdfs:label "Pizza marinara" ;
+    rdfs:subClassOf _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N57e021778be24cfdb11e44da14bf06aa,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N8bb554679b32466186e1134c73d66a26,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19,
+        _:Nd7675d8755674451a9a0b5f755d68fb1,
+        _:Necf9a7a220ee4de79051f3de7837ea93,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        _:Nf2c9af8bd4844523a661984b4d025f77,
+        :Food,
+        :MenuItem,
+        :NamedPizza,
+        :Pizza,
+        :PizzaMarinara,
+        owl:Thing ;
+    owl:equivalentClass :PizzaMarinara ;
+    owl:sameAs :PizzaMarinara .
+
+:PizzaNutella a owl:Class ;
+    rdfs:label "Pizza Nutella" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        :PizzaNutella,
+        :SweetPizza,
+        owl:Thing ;
+    owl:equivalentClass :PizzaNutella ;
+    owl:sameAs :PizzaNutella .
+
+:PizzaRomana a owl:Class ;
+    rdfs:label "Pizza Romana" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        :PizzaRomana,
+        owl:Thing ;
+    owl:equivalentClass :PizzaRomana ;
+    owl:sameAs :PizzaRomana .
+
+:PizzaSupreme a owl:Class ;
+    rdfs:label "Pizza supreme" ;
+    rdfs:subClassOf _:N4c462f9e26ca4fc1a6171426d5a6203d,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N99b5df6d511e45e995786b67c13b4a42,
+        _:N9c525073661b4389a6b9ccbe6bebfe8a,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nda8f0e5ce0fa446288c9e25710b016c8,
+        _:Ndd0f301c75764e218132f8d33e9220a5,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :NamedPizza,
+        :Pizza,
+        :PizzaSupreme,
+        owl:Thing ;
+    owl:equivalentClass :PizzaSupreme ;
+    owl:sameAs :PizzaSupreme .
+
+:PlumTomato a owl:Class ;
+    rdfs:label "Plum tomato" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :PlumTomato,
+        :Tomato,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :PlumTomato ;
+    owl:sameAs :PlumTomato .
+
+:Potato a owl:Class ;
+    rdfs:label "Potato" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Potato,
+        :RootVegetable,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Potato ;
+    owl:sameAs :Potato .
+
+:Prosciutto a owl:Class ;
+    rdfs:label "Prosciutto" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Meat,
+        :Prosciutto,
+        owl:Thing ;
+    owl:equivalentClass :Prosciutto ;
+    owl:sameAs :Prosciutto .
+
+:Provolone a owl:Class ;
+    rdfs:label "Provolone" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Cheese,
+        :Food,
+        :Ingredient,
+        :Provolone,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Provolone ;
+    owl:sameAs :Provolone .
+
+:Pumpkin a owl:Class ;
+    rdfs:label "Pumpkin" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Pumpkin,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        :WinterSquash,
+        owl:Thing ;
+    owl:equivalentClass :Pumpkin ;
+    owl:sameAs :Pumpkin .
+
+:RedPepper a owl:Class ;
+    rdfs:label "Red pepper" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Pepper,
+        :RedPepper,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :RedPepper ;
+    owl:sameAs :RedPepper .
+
+:Ricotta a owl:Class ;
+    rdfs:label "Ricotta" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Cheese,
+        :Food,
+        :Ingredient,
+        :Ricotta,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Ricotta ;
+    owl:sameAs :Ricotta .
+
+:Rosemary a owl:Class ;
+    rdfs:label "Rosemary" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Herbs,
+        :Ingredient,
+        :Rosemary,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Rosemary ;
+    owl:sameAs :Rosemary .
+
+:Salami a owl:Class ;
+    rdfs:label "Salami" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Meat,
+        :Salami,
+        owl:Thing ;
+    owl:equivalentClass :Salami ;
+    owl:sameAs :Salami .
+
+:Scallops a owl:Class ;
+    rdfs:label "Scallop" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Scallops,
+        :SeaFood,
+        owl:Thing ;
+    owl:equivalentClass :Scallops ;
+    owl:sameAs :Scallops .
+
+:SeafoodRestaurant a owl:Class ;
+    rdfs:label "Seafood restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        :Restaurant,
+        :SeafoodRestaurant,
+        owl:Thing ;
+    owl:equivalentClass :SeafoodRestaurant ;
+    owl:sameAs :SeafoodRestaurant .
+
+:Shrimp a owl:Class ;
+    rdfs:label "Shrimp" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :SeaFood,
+        :Shrimp,
+        owl:Thing ;
+    owl:equivalentClass :Shrimp ;
+    owl:sameAs :Shrimp .
+
+:SpanishRestaurant a owl:Class ;
+    rdfs:label "Spanish restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        :MediterraneanRestaurant,
+        :Restaurant,
+        :SpanishRestaurant,
+        owl:Thing ;
+    owl:equivalentClass :SpanishRestaurant ;
+    owl:sameAs :SpanishRestaurant .
+
+:Spinach a owl:Class ;
+    rdfs:label "Spinach" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Spinach,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Spinach ;
+    owl:sameAs :Spinach .
+
+:SportsBar a owl:Class ;
+    rdfs:label "Sports bar" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Bar,
+        :BarsPubsClubs,
+        :Location,
+        :Restaurant,
+        :SportsBar,
+        owl:Thing ;
+    owl:equivalentClass :SportsBar ;
+    owl:sameAs :SportsBar .
+
+:SushiRestaurant a owl:Class ;
+    rdfs:label "Sushi restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :AsianRestaurant,
+        :JapaneseRestaurant,
+        :Location,
+        :Restaurant,
+        :SushiRestaurant,
+        owl:Thing ;
+    owl:equivalentClass :SushiRestaurant ;
+    owl:sameAs :SushiRestaurant .
+
+:SweetPotato a owl:Class ;
+    rdfs:label "Sweet potato" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :RootVegetable,
+        :SweetPotato,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :SweetPotato ;
+    owl:sameAs :SweetPotato .
+
+:Tofu a owl:Class ;
+    rdfs:label "Tofu" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Tofu,
+        :VeganIngredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Tofu ;
+    owl:sameAs :Tofu .
+
+:VeganRestaurant a owl:Class ;
+    rdfs:label "Vegan restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :DietaryRestaurant,
+        :Location,
+        :Restaurant,
+        :VeganRestaurant,
+        owl:Thing ;
+    owl:equivalentClass :VeganRestaurant ;
+    owl:sameAs :VeganRestaurant .
+
+:VegetarianRestaurant a owl:Class ;
+    rdfs:label "Vegetarian restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :DietaryRestaurant,
+        :Location,
+        :Restaurant,
+        :VegetarianRestaurant,
+        owl:Thing ;
+    owl:equivalentClass :VegetarianRestaurant ;
+    owl:sameAs :VegetarianRestaurant .
+
+:YellowPepper a owl:Class ;
+    rdfs:label "Yellow pepper" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Pepper,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        :YellowPepper,
+        owl:Thing ;
+    owl:equivalentClass :YellowPepper ;
+    owl:sameAs :YellowPepper .
+
+:Zucchini a owl:Class ;
+    rdfs:label "Zucchini" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        :Zucchini,
+        owl:Thing ;
+    owl:equivalentClass :Zucchini ;
+    owl:sameAs :Zucchini .
+
+:amount a owl:DatatypeProperty ;
+    rdfs:domain _:N9a9e7f316d5644729782af5415179e13,
+        _:Ne51e7165eee2476abfff0bf62ae6f1ef,
+        :ItemValue,
+        owl:Thing ;
+    rdfs:range xsd:double ;
+    rdfs:subPropertyOf :amount ;
+    owl:equivalentProperty :amount ;
+    owl:sameAs :amount .
+
+:amountCurrency a owl:ObjectProperty ;
+    rdfs:domain _:N9a9e7f316d5644729782af5415179e13,
+        _:Ne51e7165eee2476abfff0bf62ae6f1ef,
+        :ItemValue,
+        owl:Thing ;
+    rdfs:range :Currency,
+        owl:Thing ;
+    rdfs:subPropertyOf :amountCurrency ;
+    owl:equivalentProperty :amountCurrency ;
+    owl:sameAs :amountCurrency .
+
+:firstLineAddress a owl:DatatypeProperty ;
+    rdfs:domain _:N00d2b6d316bf44c1b0a8fe58bd272a6d,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nc1eecc0b1f304a799e48346360ca172c,
+        _:Ne6f532c3e9444771882676a9e1a2c433,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Address,
+        :Location,
+        owl:Thing ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :firstLineAddress ;
+    owl:equivalentProperty :firstLineAddress ;
+    owl:sameAs :firstLineAddress .
+
+:isIngredientOf a owl:ObjectProperty ;
+    rdfs:domain _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        owl:Thing ;
+    rdfs:range _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        owl:Thing ;
+    rdfs:subPropertyOf :isIngredientOf ;
+    owl:equivalentProperty :isIngredientOf ;
+    owl:sameAs :isIngredientOf .
+
+:itemName a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :itemName,
+        :name ;
+    owl:equivalentProperty :itemName ;
+    owl:sameAs :itemName .
+
+:locatedInAdress a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    rdfs:range _:N00d2b6d316bf44c1b0a8fe58bd272a6d,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nc1eecc0b1f304a799e48346360ca172c,
+        _:Ne6f532c3e9444771882676a9e1a2c433,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Address,
+        :Location,
+        owl:Thing ;
+    rdfs:subPropertyOf :locatedIn,
+        :locatedInAdress ;
+    owl:equivalentProperty :locatedInAdress ;
+    owl:sameAs :locatedInAdress .
+
+:locatedInCity a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    rdfs:range _:N3e011e729d424be7a003cb6585ece47c,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nba0a789eccae45ed811526493a8d53fd,
+        _:Ndca1a9f07e1a44b9bd0f91eb287c2083,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :City,
+        :Location,
+        owl:Thing ;
+    rdfs:subPropertyOf :locatedIn,
+        :locatedInCity ;
+    owl:equivalentProperty :locatedInCity ;
+    owl:sameAs :locatedInCity .
+
+:locatedInState a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    rdfs:range _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nba0a789eccae45ed811526493a8d53fd,
+        _:Ndca1a9f07e1a44b9bd0f91eb287c2083,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        :State,
+        owl:Thing ;
+    rdfs:subPropertyOf :locatedIn,
+        :locatedInState ;
+    owl:equivalentProperty :locatedInState ;
+    owl:sameAs :locatedInState .
+
+:postCode a owl:DatatypeProperty ;
+    rdfs:domain _:N00d2b6d316bf44c1b0a8fe58bd272a6d,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nc1eecc0b1f304a799e48346360ca172c,
+        _:Ne6f532c3e9444771882676a9e1a2c433,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Address,
+        :Location,
+        owl:Thing ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :postCode ;
+    owl:equivalentProperty :postCode ;
+    owl:sameAs :postCode .
+
+:restaurantName a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :name,
+        :restaurantName ;
+    owl:equivalentProperty :restaurantName ;
+    owl:sameAs :restaurantName .
+
+:servedIn a owl:ObjectProperty ;
+    rdfs:subPropertyOf :servedIn ;
+    owl:equivalentProperty :servedIn ;
+    owl:sameAs :servedIn .
+
+:servedInRestaurant a owl:ObjectProperty ;
+    rdfs:subPropertyOf :servedIn,
+        :servedInRestaurant ;
+    owl:equivalentProperty :servedInRestaurant ;
+    owl:sameAs :servedInRestaurant .
+
+:serves a owl:ObjectProperty ;
+    rdfs:subPropertyOf :serves,
+        owl:topObjectProperty ;
+    owl:equivalentProperty :serves ;
+    owl:sameAs :serves .
+
+:servesMenuItem a owl:ObjectProperty ;
+    rdfs:subPropertyOf :serves,
+        :servesMenuItem,
+        owl:topObjectProperty ;
+    owl:equivalentProperty :servesMenuItem ;
+    owl:sameAs :servesMenuItem .
+
+:AmericanRestaurant a owl:Class ;
+    rdfs:label "American restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :AmericanRestaurant,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :AmericanRestaurant ;
+    owl:sameAs :AmericanRestaurant .
+
+:BarbecueSauce a owl:Class ;
+    rdfs:label "Barbecue sause" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :BarbecueSauce,
+        :Food,
+        :Ingredient,
+        :Sauce,
+        :VeganIngredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :BarbecueSauce ;
+    owl:sameAs :BarbecueSauce ;
+    skos:altLabel "BBQ sauce" .
+
+:Capers a owl:Class ;
+    rdfs:label "Capers" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Capers,
+        :Food,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Capers ;
+    owl:sameAs :Capers .
+
+:Chicken a owl:Class ;
+    rdfs:label "Chicken" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Chicken,
+        :Food,
+        :Ingredient,
+        :Meat,
+        owl:Thing ;
+    owl:equivalentClass :Chicken ;
+    owl:sameAs :Chicken .
+
+:Garlic a owl:Class ;
+    rdfs:label "Garlic" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Garlic,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Garlic ;
+    owl:sameAs :Garlic .
+
+:Ham a owl:Class ;
+    rdfs:label "Ham" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ham,
+        :Ingredient,
+        :Meat,
+        owl:Thing ;
+    owl:equivalentClass :Ham ;
+    owl:sameAs :Ham .
+
+:JapaneseRestaurant a owl:Class ;
+    rdfs:label "Japanese restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :AsianRestaurant,
+        :JapaneseRestaurant,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :JapaneseRestaurant ;
+    owl:sameAs :JapaneseRestaurant .
+
+:Pepperoni a owl:Class ;
+    rdfs:label "Pepperoni" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Meat,
+        :Pepperoni,
+        :Sausage,
+        owl:Thing ;
+    owl:equivalentClass :Pepperoni ;
+    owl:sameAs :Pepperoni ;
+    skos:altLabel "Pepperoni sausage" .
+
+:PizzaBianca a owl:Class ;
+    rdfs:label "Pizza bianca" ;
+    rdfs:comment "Pizza without tomato sauce" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaBianca,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass :PizzaBianca ;
+    owl:sameAs :PizzaBianca ;
+    skos:altLabel "White pizza" .
+
+:Pizzeria a owl:Class ;
+    rdfs:label "Pizzeria" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        :Pizzeria,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :Pizzeria ;
+    owl:sameAs :Pizzeria ;
+    skos:altLabel "Pizza place" .
+
+:Pub a owl:Class ;
+    rdfs:label "Pub" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :BarsPubsClubs,
+        :Location,
+        :Pub,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :Pub ;
+    owl:sameAs :Pub .
+
+:Salmon a owl:Class ;
+    rdfs:label "Salmon" ;
+    rdfs:subClassOf _:N0ad4b53aa65f43ed8c0f8fe9dafcc05d,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Salmon,
+        :SeaFood,
+        owl:Thing ;
+    owl:equivalentClass :Salmon ;
+    owl:sameAs :Salmon .
+
+:Seeds a owl:Class ;
+    rdfs:label "Seeds" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Seeds,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Seeds ;
+    owl:sameAs :Seeds .
+
+:SweetPizza a owl:Class ;
+    rdfs:label "Sweet pizza" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        :SweetPizza,
+        owl:Thing ;
+    owl:equivalentClass :SweetPizza ;
+    owl:sameAs :SweetPizza .
+
+:Tuna a owl:Class ;
+    rdfs:label "Tuna" ;
+    rdfs:subClassOf _:N0ad4b53aa65f43ed8c0f8fe9dafcc05d,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :SeaFood,
+        :Tuna,
+        owl:Thing ;
+    owl:equivalentClass :Tuna ;
+    owl:sameAs :Tuna .
+
+:VeganCheese a owl:Class ;
+    rdfs:label "Vegan cheese" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :VeganCheese,
+        :VeganIngredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :VeganCheese ;
+    owl:sameAs :VeganCheese ;
+    skos:altLabel "Dairy-free cheese" .
+
+:hasValue a owl:ObjectProperty ;
+    rdfs:subPropertyOf :hasValue ;
+    owl:equivalentProperty :hasValue ;
+    owl:sameAs :hasValue .
+
+:locatedInCountry a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    rdfs:range _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Country,
+        :Location,
+        owl:Thing ;
+    rdfs:subPropertyOf :locatedIn,
+        :locatedInCountry ;
+    owl:equivalentProperty :locatedInCountry ;
+    owl:sameAs :locatedInCountry .
+
+:name a owl:DatatypeProperty ;
+    rdfs:range xsd:string ;
+    rdfs:subPropertyOf :name ;
+    owl:equivalentProperty :name ;
+    owl:sameAs :name .
+
+:pizza_putanesca_the_brentwood_los_angeles a _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nda8f0e5ce0fa446288c9e25710b016c8,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        owl:NamedIndividual,
+        owl:Thing ;
+    :hasIngredient :capers,
+        :olive,
+        :onion,
+        :tomato ;
+    owl:sameAs :pizza_putanesca_the_brentwood_los_angeles .
+
+owl:FunctionalProperty owl:sameAs owl:FunctionalProperty .
+
+:Basil a owl:Class ;
+    rdfs:label "Basil" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Basil,
+        :Food,
+        :Herbs,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Basil ;
+    owl:sameAs :Basil .
+
+:Beans a owl:Class ;
+    rdfs:label "Beans" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Beans,
+        :Food,
+        :Ingredient,
+        :Seeds,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Beans ;
+    owl:sameAs :Beans .
+
+:Feta a owl:Class ;
+    rdfs:label "Feta" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Cheese,
+        :Feta,
+        :Food,
+        :Ingredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Feta ;
+    owl:sameAs :Feta .
+
+:FruitPizza a owl:Class ;
+    rdfs:label "Fruit pizza" ;
+    rdfs:subClassOf _:N20b74a32b82b4ba1a691bacbb56a8600,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd816f1fd3f0f4233912ba8624739baef,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :FruitPizza,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass _:N20b74a32b82b4ba1a691bacbb56a8600,
+        :FruitPizza ;
+    owl:sameAs :FruitPizza .
+
+:GreekPizza a owl:Class ;
+    rdfs:label "Greek pizza" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N6a6ba520912443bebb3752a67a4e36c6,
+        _:Naf44e70489ad422593c9ada90823d265,
+        _:Nb3c6cb428d004feb94e435ee1c6e7f9b,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :GreekPizza,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass _:Naf44e70489ad422593c9ada90823d265,
+        :GreekPizza ;
+    owl:sameAs :GreekPizza .
+
+:MeatPizza a owl:Class ;
+    rdfs:label "Meat pizza" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N9142c769daf643dcb88c0b63dcd45f60,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Ndd0f301c75764e218132f8d33e9220a5,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MeatPizza,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass _:N9142c769daf643dcb88c0b63dcd45f60,
+        :MeatPizza ;
+    owl:sameAs :MeatPizza ;
+    skos:altLabel "Meaty pizza" .
+
+:MexicanPizza a owl:Class ;
+    rdfs:label "Mexican pizza" ;
+    rdfs:subClassOf _:N3abed24447964141af52741ea6ad1737,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N6d86ac76a2894760a540c0e4e3e88237,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Ned6991161f074ba0a35c44ed315b8d7d,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :AmericanPizza,
+        :Food,
+        :MenuItem,
+        :MexicanPizza,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass _:Ned6991161f074ba0a35c44ed315b8d7d,
+        :MexicanPizza ;
+    owl:sameAs :MexicanPizza .
+
+:Mushroom a owl:Class ;
+    rdfs:label "Mushroom" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N7bddde250a534bb2855cdefb526ce4e5,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Mushroom,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Mushroom ;
+    owl:sameAs :Mushroom .
+
+:Onion a owl:Class ;
+    rdfs:label "Onion" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Onion,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Onion ;
+    owl:sameAs :Onion .
+
+:Pineapple a owl:Class ;
+    rdfs:label "Pineapple" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Fruit,
+        :Ingredient,
+        :Pineapple,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Pineapple ;
+    owl:sameAs :Pineapple .
+
+:PizzaNapolitana a owl:Class ;
+    rdfs:label "Pizza Napolitana" ;
+    rdfs:subClassOf _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N571b6dfd027b4ed9932ae40c4f17097c,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N76cce3bc2ff14f918ce464fe869479c6,
+        _:N8bb554679b32466186e1134c73d66a26,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19,
+        _:Necf9a7a220ee4de79051f3de7837ea93,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        _:Nf2c9af8bd4844523a661984b4d025f77,
+        _:Nfd2a6adc91064cde86a1c7bfd25b7348,
+        :Food,
+        :MargheritaPizza,
+        :MenuItem,
+        :NamedPizza,
+        :Pizza,
+        :PizzaNapolitana,
+        owl:Thing ;
+    owl:equivalentClass _:N76cce3bc2ff14f918ce464fe869479c6,
+        :PizzaNapolitana ;
+    owl:sameAs :PizzaNapolitana .
+
+:Sausage a owl:Class ;
+    rdfs:label "Sausage" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Meat,
+        :Sausage,
+        owl:Thing ;
+    owl:equivalentClass :Sausage ;
+    owl:sameAs :Sausage .
+
+:SeafoodPizza a owl:Class ;
+    rdfs:label "Seafood pizza" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N68293be50b95402596980d3b784ff61b,
+        _:N94b53c4f97854644895c10fc3cf3aa01,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        :SeafoodPizza,
+        owl:Thing ;
+    owl:equivalentClass _:N68293be50b95402596980d3b784ff61b,
+        :SeafoodPizza ;
+    owl:sameAs :SeafoodPizza .
+
+:VeganPizza a owl:Class ;
+    rdfs:label "Vegan pizza" ;
+    rdfs:subClassOf _:N1bd6aa0334934b4d9f74792a7356f867,
+        _:N2449cd45881d4702af9a47ffdfc31d23,
+        _:N38720955981c44099f1e3fddf5bed016,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Na0ccdc83cb6946a0ae5381bbdc1ff466,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        :VeganPizza,
+        :VegetarianPizza,
+        owl:Thing ;
+    owl:equivalentClass _:Na0ccdc83cb6946a0ae5381bbdc1ff466,
+        :VeganPizza ;
+    owl:sameAs :VeganPizza .
+
+:WinterSquash a owl:Class ;
+    rdfs:label "Winter squash" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        :WinterSquash,
+        owl:Thing ;
+    owl:equivalentClass :WinterSquash ;
+    owl:sameAs :WinterSquash .
+
+:Bar a owl:Class ;
+    rdfs:label "Bar" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Bar,
+        :BarsPubsClubs,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :Bar ;
+    owl:sameAs :Bar .
+
+:City a owl:Class ;
+    rdfs:label "City" ;
+    rdfs:subClassOf _:N3e011e729d424be7a003cb6585ece47c,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nba0a789eccae45ed811526493a8d53fd,
+        _:Ndca1a9f07e1a44b9bd0f91eb287c2083,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :City,
+        :Location,
+        owl:Thing ;
+    owl:equivalentClass :City ;
+    owl:sameAs :City .
+
+:Country a owl:Class ;
+    rdfs:label "Country" ;
+    rdfs:subClassOf _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Country,
+        :Location,
+        owl:Thing ;
+    owl:equivalentClass :Country ;
+    owl:sameAs :Country .
+
+:DietaryRestaurant a owl:Class ;
+    rdfs:label "Dietary restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :DietaryRestaurant,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :DietaryRestaurant ;
+    owl:sameAs :DietaryRestaurant .
+
+:Fruit a owl:Class ;
+    rdfs:label "Fruit" ;
+    rdfs:comment "For simplicity, this ontology relies on the common language usage of \"fruit\" (i.e., sweet fruit)." ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Fruit,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Fruit ;
+    owl:sameAs :Fruit .
+
+:Herbs a owl:Class ;
+    rdfs:label "Herbs" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Herbs,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Herbs ;
+    owl:sameAs :Herbs .
+
+:MargheritaPizza a owl:Class ;
+    rdfs:label "Margherita pizza" ;
+    rdfs:subClassOf _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N571b6dfd027b4ed9932ae40c4f17097c,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N8bb554679b32466186e1134c73d66a26,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19,
+        _:Necf9a7a220ee4de79051f3de7837ea93,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        _:Nf2c9af8bd4844523a661984b4d025f77,
+        :Food,
+        :MargheritaPizza,
+        :MenuItem,
+        :NamedPizza,
+        :Pizza,
+        owl:Thing ;
+    owl:equivalentClass :MargheritaPizza ;
+    owl:sameAs :MargheritaPizza .
+
+:Mozzarella a owl:Class ;
+    rdfs:label "Mozzarella" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N7bddde250a534bb2855cdefb526ce4e5,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Cheese,
+        :Food,
+        :Ingredient,
+        :Mozzarella,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Mozzarella ;
+    owl:sameAs :Mozzarella .
+
+:Olives a owl:Class ;
+    rdfs:label "Olives" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Olives,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Olives ;
+    owl:sameAs :Olives .
+
+:RootVegetable a owl:Class ;
+    rdfs:label "Root vegetable" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :RootVegetable,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :RootVegetable ;
+    owl:sameAs :RootVegetable .
+
+:State a owl:Class ;
+    rdfs:label "State" ;
+    rdfs:subClassOf _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nba0a789eccae45ed811526493a8d53fd,
+        _:Ndca1a9f07e1a44b9bd0f91eb287c2083,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        :State,
+        owl:Thing ;
+    owl:equivalentClass :State ;
+    owl:sameAs :State .
+
+:Tomato a owl:Class ;
+    rdfs:label "Tomato" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Tomato,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Tomato ;
+    owl:sameAs :Tomato .
+
+:hasLocation a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    rdfs:range _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    rdfs:subPropertyOf :hasLocation,
+        owl:topObjectProperty ;
+    owl:equivalentProperty :hasLocation ;
+    owl:inverseOf :locatedIn ;
+    owl:sameAs :hasLocation .
+
+owl:DatatypeProperty owl:sameAs owl:DatatypeProperty .
+
+owl:topObjectProperty owl:sameAs owl:topObjectProperty .
+
+:AmericanPizza a owl:Class ;
+    rdfs:label "American pizza" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :AmericanPizza,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass :AmericanPizza ;
+    owl:sameAs :AmericanPizza .
+
+:AsianRestaurant a owl:Class ;
+    rdfs:label "Asian restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :AsianRestaurant,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :AsianRestaurant ;
+    owl:sameAs :AsianRestaurant .
+
+:ItemValue a owl:Class ;
+    rdfs:label "Item value" ;
+    rdfs:subClassOf _:N9a9e7f316d5644729782af5415179e13,
+        _:Ne51e7165eee2476abfff0bf62ae6f1ef,
+        :ItemValue,
+        owl:Thing ;
+    owl:equivalentClass :ItemValue ;
+    owl:sameAs :ItemValue .
+
+:MediterraneanRestaurant a owl:Class ;
+    rdfs:label "Mediterranean restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        :MediterraneanRestaurant,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :MediterraneanRestaurant ;
+    owl:sameAs :MediterraneanRestaurant .
+
+:VegetarianPizza a owl:Class ;
+    rdfs:label "Vegetarian pizza" ;
+    rdfs:subClassOf _:N1bd6aa0334934b4d9f74792a7356f867,
+        _:N2449cd45881d4702af9a47ffdfc31d23,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        :VegetarianPizza,
+        owl:Thing ;
+    owl:equivalentClass _:N1bd6aa0334934b4d9f74792a7356f867,
+        :VegetarianPizza ;
+    owl:sameAs :VegetarianPizza .
+
+:Address a owl:Class ;
+    rdfs:label "Address" ;
+    rdfs:subClassOf _:N00d2b6d316bf44c1b0a8fe58bd272a6d,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nc1eecc0b1f304a799e48346360ca172c,
+        _:Ne6f532c3e9444771882676a9e1a2c433,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Address,
+        :Location,
+        owl:Thing ;
+    owl:equivalentClass :Address ;
+    owl:sameAs :Address .
+
+:Currency a owl:Class ;
+    rdfs:label "Currency" ;
+    rdfs:subClassOf :Currency,
+        owl:Thing ;
+    owl:equivalentClass :Currency ;
+    owl:sameAs :Currency .
+
+:Pepper a owl:Class ;
+    rdfs:label "Pepper" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Pepper,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Pepper ;
+    owl:sameAs :Pepper .
+
+:Sauce a owl:Class ;
+    rdfs:label "Sauce" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Sauce,
+        owl:Thing ;
+    owl:equivalentClass :Sauce ;
+    owl:sameAs :Sauce .
+
+:locatedIn a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    rdfs:range _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    rdfs:subPropertyOf :locatedIn ;
+    owl:equivalentProperty :locatedIn ;
+    owl:sameAs :locatedIn .
+
+:NamedPizza a owl:Class ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :NamedPizza,
+        :Pizza,
+        owl:Thing ;
+    owl:equivalentClass :NamedPizza ;
+    owl:sameAs :NamedPizza .
+
+:PizzaByIngredient a owl:Class ;
+    rdfs:comment "Organized pizzas by ingredient" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByIngredient,
+        owl:Thing ;
+    owl:equivalentClass :PizzaByIngredient ;
+    owl:sameAs :PizzaByIngredient .
+
+:TomatoSauce a owl:Class ;
+    rdfs:label "Tomato sauce" ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N7bddde250a534bb2855cdefb526ce4e5,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Sauce,
+        :TomatoSauce,
+        :VeganIngredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :TomatoSauce ;
+    owl:sameAs :TomatoSauce .
+
+:SeaFood a owl:Class ;
+    rdfs:label "Seafood" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :SeaFood,
+        owl:Thing ;
+    owl:disjointWith :VegetarianIngredient ;
+    owl:equivalentClass :SeaFood ;
+    owl:sameAs :SeaFood .
+
+xsd:string a rdfs:Datatype ;
+    owl:sameAs xsd:string .
+
+:BarsPubsClubs a owl:Class ;
+    rdfs:label "Bars, pubs and clubs" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :BarsPubsClubs,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :BarsPubsClubs ;
+    owl:sameAs :BarsPubsClubs .
+
+() owl:sameAs () .
+
+owl:AnnotationProperty owl:sameAs owl:AnnotationProperty .
+
+owl:NamedIndividual owl:sameAs owl:NamedIndividual .
+
+:Cheese a owl:Class ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Cheese,
+        :Food,
+        :Ingredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Cheese ;
+    owl:sameAs :Cheese .
+
+:Meat a owl:Class ;
+    rdfs:label "Meat" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :Meat,
+        owl:Thing ;
+    owl:disjointWith :SeaFood,
+        :VegetarianIngredient ;
+    owl:equivalentClass :Meat ;
+    owl:sameAs :Meat .
+
+owl:ObjectProperty owl:sameAs owl:ObjectProperty .
+
+:PizzaByStyle a owl:Class ;
+    rdfs:comment "Organizes pizzas by their style" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass :PizzaByStyle ;
+    owl:sameAs :PizzaByStyle .
+
+:hasIngredient a owl:ObjectProperty ;
+    rdfs:domain _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        owl:Thing ;
+    rdfs:range _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        owl:Thing ;
+    rdfs:subPropertyOf :hasIngredient ;
+    owl:equivalentProperty :hasIngredient ;
+    owl:inverseOf :isIngredientOf ;
+    owl:sameAs :hasIngredient .
+
+rdfs:Datatype owl:sameAs rdfs:Datatype .
+
+:Restaurant a owl:Class ;
+    rdfs:label "Restaurant" ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e,
+        _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nd0809839f8e94027b6f0ba16a86c4706,
+        _:Nf512c22718e44725a4a14349801b8064,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        :Restaurant,
+        owl:Thing ;
+    owl:equivalentClass :Restaurant ;
+    owl:sameAs :Restaurant .
+
+:MenuItem a owl:Class ;
+    rdfs:label "Menu item" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        owl:Thing ;
+    owl:equivalentClass :MenuItem ;
+    owl:sameAs :MenuItem .
+
+:Vegetable a owl:Class ;
+    rdfs:label "Vegetable" ;
+    rdfs:comment "For simplicity, this ontology relies on the original meaning to refer to all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds." ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :VeganIngredient,
+        :Vegetable,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :Vegetable ;
+    owl:sameAs :Vegetable .
+
+:Pizza a owl:Class ;
+    rdfs:label "Pizza" ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        owl:Thing ;
+    owl:equivalentClass :Pizza ;
+    owl:sameAs :Pizza .
+
+owl:Restriction owl:sameAs owl:Restriction .
+
+:VeganIngredient a owl:Class ;
+    rdfs:label "Vegan ingredient" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :VeganIngredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :VeganIngredient ;
+    owl:sameAs :VeganIngredient .
+
+:Location a owl:Class ;
+    rdfs:label "Location" ;
+    rdfs:subClassOf _:Na0bd314f90b2444aa299cb6ff3c7e3d8,
+        _:Nf58ac8a9c0114a478ab574fabf7d01e6,
+        :Location,
+        owl:Thing ;
+    owl:equivalentClass :Location ;
+    owl:sameAs :Location .
+
+:VegetarianIngredient a owl:Class ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        :VegetarianIngredient,
+        owl:Thing ;
+    owl:equivalentClass :VegetarianIngredient ;
+    owl:sameAs :VegetarianIngredient .
+
+:Ingredient a owl:Class ;
+    rdfs:label "Ingredient" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :Ingredient,
+        owl:Thing ;
+    owl:equivalentClass :Ingredient ;
+    owl:sameAs :Ingredient .
+
+:Food a owl:Class ;
+    rdfs:label "Food" ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        owl:Thing ;
+    owl:equivalentClass :Food ;
+    owl:sameAs :Food .
+
+owl:Class owl:sameAs owl:Class .
+
+owl:Thing a owl:Class ;
+    rdfs:subClassOf owl:Thing ;
+    owl:equivalentClass owl:Thing ;
+    owl:sameAs owl:Thing .
+
+_:N166c082003a4478ba54ca2159aeed40e rdf:first :Pizza ;
+    rdf:rest _:N1ca70238810c4c978bf6c1fcfa6780be ;
+    owl:sameAs _:N166c082003a4478ba54ca2159aeed40e .
+
+_:N1ca70238810c4c978bf6c1fcfa6780be rdf:first _:Ndd0f301c75764e218132f8d33e9220a5 ;
+    rdf:rest () ;
+    owl:sameAs _:N1ca70238810c4c978bf6c1fcfa6780be .
+
+_:N1d02a98b1fd04bce8d92f09f89624def rdf:first :Pizza ;
+    rdf:rest _:Nf8f1058d63634a44b365892b81ac4b30 ;
+    owl:sameAs _:N1d02a98b1fd04bce8d92f09f89624def .
+
+_:N24d8d448e6d04825aa4bead51883f7eb rdf:first :Basil ;
+    rdf:rest _:Ne1eea27567db4003ae72b13f2b5dcb9f ;
+    owl:sameAs _:N24d8d448e6d04825aa4bead51883f7eb .
+
+_:N33cf96a8be9943e8acb834a6dacf9d41 rdf:first _:N38720955981c44099f1e3fddf5bed016 ;
+    rdf:rest () ;
+    owl:sameAs _:N33cf96a8be9943e8acb834a6dacf9d41 .
+
+_:N4326be1c185746968b5df67b04336074 rdf:first _:N94b53c4f97854644895c10fc3cf3aa01 ;
+    rdf:rest () ;
+    owl:sameAs _:N4326be1c185746968b5df67b04336074 .
+
+_:N4d34cd26cbec414883b6c0b0426cf670 rdf:first :Pizza ;
+    rdf:rest _:Nb843c7cad10b40d79bf710a971a5e4fa ;
+    owl:sameAs _:N4d34cd26cbec414883b6c0b0426cf670 .
+
+_:N6157312982c6401b8c21d6b05f240617 rdf:first :Salmon ;
+    rdf:rest _:Na8ac59d489904f40bab18e08a8580c37 ;
+    owl:sameAs _:N6157312982c6401b8c21d6b05f240617 .
+
+_:N6791bcd2e35a43ceaaf5c3832109457c rdf:first :Pizza ;
+    rdf:rest _:N72ebda0765014318ba090f7b468024c6 ;
+    owl:sameAs _:N6791bcd2e35a43ceaaf5c3832109457c .
+
+_:N72ebda0765014318ba090f7b468024c6 rdf:first _:Nd816f1fd3f0f4233912ba8624739baef ;
+    rdf:rest () ;
+    owl:sameAs _:N72ebda0765014318ba090f7b468024c6 .
+
+_:N9a34374fbc0c40c694672e6acbc60da7 rdf:first :MargheritaPizza ;
+    rdf:rest _:Nfeb4993e4cc942d38b3ff8b5ded4bd83 ;
+    owl:sameAs _:N9a34374fbc0c40c694672e6acbc60da7 .
+
+_:Na8ac59d489904f40bab18e08a8580c37 rdf:first :Tuna ;
+    rdf:rest () ;
+    owl:sameAs _:Na8ac59d489904f40bab18e08a8580c37 .
+
+_:Naee1c67496584a898c0b52c1be0d7369 rdf:first :Pizza ;
+    rdf:rest _:N4326be1c185746968b5df67b04336074 ;
+    owl:sameAs _:Naee1c67496584a898c0b52c1be0d7369 .
+
+_:Nb39b863c29b4427286f6a45f78bc6f69 rdf:first :TomatoSauce ;
+    rdf:rest () ;
+    owl:sameAs _:Nb39b863c29b4427286f6a45f78bc6f69 .
+
+_:Nb843c7cad10b40d79bf710a971a5e4fa rdf:first _:N6d86ac76a2894760a540c0e4e3e88237 ;
+    rdf:rest () ;
+    owl:sameAs _:Nb843c7cad10b40d79bf710a971a5e4fa .
+
+_:Nb91a0332de254fd5966604618094d48f rdf:first :Pizza ;
+    rdf:rest _:N33cf96a8be9943e8acb834a6dacf9d41 ;
+    owl:sameAs _:Nb91a0332de254fd5966604618094d48f .
+
+_:Ncfd3d895dc564da78bdeb0517470385b rdf:first _:Nb3c6cb428d004feb94e435ee1c6e7f9b ;
+    rdf:rest () ;
+    owl:sameAs _:Ncfd3d895dc564da78bdeb0517470385b .
+
+_:Ncff4bbb42c3a493a8114e616524e7163 rdf:first :Mushroom ;
+    rdf:rest _:Neef991df23204b369dd0d31dcedeaa96 ;
+    owl:sameAs _:Ncff4bbb42c3a493a8114e616524e7163 .
+
+_:Ne1eea27567db4003ae72b13f2b5dcb9f rdf:first :Cheese ;
+    rdf:rest _:Nb39b863c29b4427286f6a45f78bc6f69 ;
+    owl:sameAs _:Ne1eea27567db4003ae72b13f2b5dcb9f .
+
+_:Ne63f30485a1a460cb2a1855fe7b09c5c rdf:first :Mozzarella ;
+    rdf:rest _:Ncff4bbb42c3a493a8114e616524e7163 ;
+    owl:sameAs _:Ne63f30485a1a460cb2a1855fe7b09c5c .
+
+_:Neef991df23204b369dd0d31dcedeaa96 rdf:first :TomatoSauce ;
+    rdf:rest () ;
+    owl:sameAs _:Neef991df23204b369dd0d31dcedeaa96 .
+
+_:Nf5e0a3f3d7fe4b5d95e5e3c29acd472a rdf:first :Pizza ;
+    rdf:rest _:Ncfd3d895dc564da78bdeb0517470385b ;
+    owl:sameAs _:Nf5e0a3f3d7fe4b5d95e5e3c29acd472a .
+
+_:Nf8f1058d63634a44b365892b81ac4b30 rdf:first _:N2449cd45881d4702af9a47ffdfc31d23 ;
+    rdf:rest () ;
+    owl:sameAs _:Nf8f1058d63634a44b365892b81ac4b30 .
+
+_:Nfeb4993e4cc942d38b3ff8b5ded4bd83 rdf:first _:Nfd2a6adc91064cde86a1c7bfd25b7348 ;
+    rdf:rest () ;
+    owl:sameAs _:Nfeb4993e4cc942d38b3ff8b5ded4bd83 .
+
+_:N0fc53974d4f34a95ab4dd0316f584d03 a owl:Restriction ;
+    rdfs:subClassOf _:N0fc53974d4f34a95ab4dd0316f584d03,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Ndd0f301c75764e218132f8d33e9220a5 ;
+    owl:equivalentClass _:N0fc53974d4f34a95ab4dd0316f584d03 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N0fc53974d4f34a95ab4dd0316f584d03 ;
+    owl:someValuesFrom :Chicken .
+
+_:N1d36d3296f994f3a91ebafbe157ff783 a owl:Restriction ;
+    rdfs:subClassOf _:N1d36d3296f994f3a91ebafbe157ff783 ;
+    owl:equivalentClass _:N1d36d3296f994f3a91ebafbe157ff783 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N1d36d3296f994f3a91ebafbe157ff783 ;
+    owl:someValuesFrom _:N0ad4b53aa65f43ed8c0f8fe9dafcc05d .
+
+_:N57e021778be24cfdb11e44da14bf06aa a owl:Restriction ;
+    rdfs:subClassOf _:N57e021778be24cfdb11e44da14bf06aa ;
+    owl:allValuesFrom _:N7bddde250a534bb2855cdefb526ce4e5 ;
+    owl:equivalentClass _:N57e021778be24cfdb11e44da14bf06aa ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N57e021778be24cfdb11e44da14bf06aa .
+
+_:N75bcef6b97b942e099d8ebe6dd1bd6a6 a owl:Restriction ;
+    rdfs:subClassOf _:N75bcef6b97b942e099d8ebe6dd1bd6a6,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:equivalentClass _:N75bcef6b97b942e099d8ebe6dd1bd6a6 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N75bcef6b97b942e099d8ebe6dd1bd6a6 ;
+    owl:someValuesFrom :Mushroom .
+
+_:N76f1cb4d3ea84fbcafc258713b1890e8 a owl:Restriction ;
+    rdfs:subClassOf _:N76f1cb4d3ea84fbcafc258713b1890e8,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Ndd0f301c75764e218132f8d33e9220a5 ;
+    owl:equivalentClass _:N76f1cb4d3ea84fbcafc258713b1890e8 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N76f1cb4d3ea84fbcafc258713b1890e8 ;
+    owl:someValuesFrom :Ham .
+
+_:N99b5df6d511e45e995786b67c13b4a42 a owl:Restriction ;
+    rdfs:subClassOf _:N4c462f9e26ca4fc1a6171426d5a6203d,
+        _:N99b5df6d511e45e995786b67c13b4a42,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Ndd0f301c75764e218132f8d33e9220a5 ;
+    owl:equivalentClass _:N99b5df6d511e45e995786b67c13b4a42 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N99b5df6d511e45e995786b67c13b4a42 ;
+    owl:someValuesFrom :Pepperoni .
+
+_:N9c525073661b4389a6b9ccbe6bebfe8a a owl:Restriction ;
+    rdfs:subClassOf _:N9c525073661b4389a6b9ccbe6bebfe8a,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:equivalentClass _:N9c525073661b4389a6b9ccbe6bebfe8a ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N9c525073661b4389a6b9ccbe6bebfe8a ;
+    owl:someValuesFrom :Pepper .
+
+_:Nb2cf0ef8120b46b4a43b28a03c846931 a owl:Restriction ;
+    rdfs:subClassOf _:Nb2cf0ef8120b46b4a43b28a03c846931,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:equivalentClass _:Nb2cf0ef8120b46b4a43b28a03c846931 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Nb2cf0ef8120b46b4a43b28a03c846931 ;
+    owl:someValuesFrom :BarbecueSauce .
+
+_:Nd7675d8755674451a9a0b5f755d68fb1 a owl:Restriction ;
+    rdfs:subClassOf _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd7675d8755674451a9a0b5f755d68fb1 ;
+    owl:equivalentClass _:Nd7675d8755674451a9a0b5f755d68fb1 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Nd7675d8755674451a9a0b5f755d68fb1 ;
+    owl:someValuesFrom :Garlic .
+
+_:N20b74a32b82b4ba1a691bacbb56a8600 a owl:Class ;
+    rdfs:subClassOf _:N20b74a32b82b4ba1a691bacbb56a8600,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd816f1fd3f0f4233912ba8624739baef,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :FruitPizza,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass _:N20b74a32b82b4ba1a691bacbb56a8600,
+        :FruitPizza ;
+    owl:intersectionOf _:N6791bcd2e35a43ceaaf5c3832109457c ;
+    owl:sameAs _:N20b74a32b82b4ba1a691bacbb56a8600 .
+
+_:N4c462f9e26ca4fc1a6171426d5a6203d a owl:Restriction ;
+    rdfs:subClassOf _:N4c462f9e26ca4fc1a6171426d5a6203d,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Ndd0f301c75764e218132f8d33e9220a5 ;
+    owl:equivalentClass _:N4c462f9e26ca4fc1a6171426d5a6203d ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N4c462f9e26ca4fc1a6171426d5a6203d ;
+    owl:someValuesFrom :Sausage .
+
+_:N68293be50b95402596980d3b784ff61b a owl:Class ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N68293be50b95402596980d3b784ff61b,
+        _:N94b53c4f97854644895c10fc3cf3aa01,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        :SeafoodPizza,
+        owl:Thing ;
+    owl:equivalentClass _:N68293be50b95402596980d3b784ff61b,
+        :SeafoodPizza ;
+    owl:intersectionOf _:Naee1c67496584a898c0b52c1be0d7369 ;
+    owl:sameAs _:N68293be50b95402596980d3b784ff61b .
+
+_:N76cce3bc2ff14f918ce464fe869479c6 a owl:Class ;
+    rdfs:subClassOf _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N571b6dfd027b4ed9932ae40c4f17097c,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N76cce3bc2ff14f918ce464fe869479c6,
+        _:N8bb554679b32466186e1134c73d66a26,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19,
+        _:Necf9a7a220ee4de79051f3de7837ea93,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        _:Nf2c9af8bd4844523a661984b4d025f77,
+        _:Nfd2a6adc91064cde86a1c7bfd25b7348,
+        :Food,
+        :MargheritaPizza,
+        :MenuItem,
+        :NamedPizza,
+        :Pizza,
+        :PizzaNapolitana,
+        owl:Thing ;
+    owl:equivalentClass _:N76cce3bc2ff14f918ce464fe869479c6,
+        :PizzaNapolitana ;
+    owl:intersectionOf _:N9a34374fbc0c40c694672e6acbc60da7 ;
+    owl:sameAs _:N76cce3bc2ff14f918ce464fe869479c6 .
+
+_:N9142c769daf643dcb88c0b63dcd45f60 a owl:Class ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N9142c769daf643dcb88c0b63dcd45f60,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Ndd0f301c75764e218132f8d33e9220a5,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MeatPizza,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass _:N9142c769daf643dcb88c0b63dcd45f60,
+        :MeatPizza ;
+    owl:intersectionOf _:N166c082003a4478ba54ca2159aeed40e ;
+    owl:sameAs _:N9142c769daf643dcb88c0b63dcd45f60 .
+
+_:Na0ccdc83cb6946a0ae5381bbdc1ff466 a owl:Class ;
+    rdfs:subClassOf _:N1bd6aa0334934b4d9f74792a7356f867,
+        _:N2449cd45881d4702af9a47ffdfc31d23,
+        _:N38720955981c44099f1e3fddf5bed016,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Na0ccdc83cb6946a0ae5381bbdc1ff466,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        :VeganPizza,
+        :VegetarianPizza,
+        owl:Thing ;
+    owl:equivalentClass _:Na0ccdc83cb6946a0ae5381bbdc1ff466,
+        :VeganPizza ;
+    owl:intersectionOf _:Nb91a0332de254fd5966604618094d48f ;
+    owl:sameAs _:Na0ccdc83cb6946a0ae5381bbdc1ff466 .
+
+_:Naf44e70489ad422593c9ada90823d265 a owl:Class ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N6a6ba520912443bebb3752a67a4e36c6,
+        _:Naf44e70489ad422593c9ada90823d265,
+        _:Nb3c6cb428d004feb94e435ee1c6e7f9b,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :GreekPizza,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass _:Naf44e70489ad422593c9ada90823d265,
+        :GreekPizza ;
+    owl:intersectionOf _:Nf5e0a3f3d7fe4b5d95e5e3c29acd472a ;
+    owl:sameAs _:Naf44e70489ad422593c9ada90823d265 .
+
+_:Nda8f0e5ce0fa446288c9e25710b016c8 a owl:Restriction ;
+    rdfs:subClassOf _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nda8f0e5ce0fa446288c9e25710b016c8 ;
+    owl:equivalentClass _:Nda8f0e5ce0fa446288c9e25710b016c8 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Nda8f0e5ce0fa446288c9e25710b016c8 ;
+    owl:someValuesFrom :Onion .
+
+_:Ned6991161f074ba0a35c44ed315b8d7d a owl:Class ;
+    rdfs:subClassOf _:N3abed24447964141af52741ea6ad1737,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:N6d86ac76a2894760a540c0e4e3e88237,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Ned6991161f074ba0a35c44ed315b8d7d,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :AmericanPizza,
+        :Food,
+        :MenuItem,
+        :MexicanPizza,
+        :Pizza,
+        :PizzaByStyle,
+        owl:Thing ;
+    owl:equivalentClass _:Ned6991161f074ba0a35c44ed315b8d7d,
+        :MexicanPizza ;
+    owl:intersectionOf _:N4d34cd26cbec414883b6c0b0426cf670 ;
+    owl:sameAs _:Ned6991161f074ba0a35c44ed315b8d7d .
+
+_:N0ad4b53aa65f43ed8c0f8fe9dafcc05d a owl:Class ;
+    rdfs:subClassOf _:N0ad4b53aa65f43ed8c0f8fe9dafcc05d,
+        owl:Thing ;
+    owl:equivalentClass _:N0ad4b53aa65f43ed8c0f8fe9dafcc05d ;
+    owl:sameAs _:N0ad4b53aa65f43ed8c0f8fe9dafcc05d ;
+    owl:unionOf _:N6157312982c6401b8c21d6b05f240617 .
+
+_:N38720955981c44099f1e3fddf5bed016 a owl:Restriction ;
+    rdfs:subClassOf _:N2449cd45881d4702af9a47ffdfc31d23,
+        _:N38720955981c44099f1e3fddf5bed016 ;
+    owl:allValuesFrom :VeganIngredient ;
+    owl:equivalentClass _:N38720955981c44099f1e3fddf5bed016 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N38720955981c44099f1e3fddf5bed016 .
+
+_:N3e011e729d424be7a003cb6585ece47c a owl:Restriction ;
+    rdfs:subClassOf _:N3e011e729d424be7a003cb6585ece47c ;
+    owl:allValuesFrom :State ;
+    owl:equivalentClass _:N3e011e729d424be7a003cb6585ece47c ;
+    owl:onProperty :locatedInState ;
+    owl:sameAs _:N3e011e729d424be7a003cb6585ece47c .
+
+_:N571b6dfd027b4ed9932ae40c4f17097c a owl:Restriction ;
+    rdfs:subClassOf _:N571b6dfd027b4ed9932ae40c4f17097c,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:equivalentClass _:N571b6dfd027b4ed9932ae40c4f17097c ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N571b6dfd027b4ed9932ae40c4f17097c ;
+    owl:someValuesFrom :Basil .
+
+_:N94b53c4f97854644895c10fc3cf3aa01 a owl:Restriction ;
+    rdfs:subClassOf _:N94b53c4f97854644895c10fc3cf3aa01,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:equivalentClass _:N94b53c4f97854644895c10fc3cf3aa01 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N94b53c4f97854644895c10fc3cf3aa01 ;
+    owl:someValuesFrom :SeaFood .
+
+_:N9a9e7f316d5644729782af5415179e13 a owl:Restriction ;
+    rdfs:subClassOf _:N9a9e7f316d5644729782af5415179e13 ;
+    owl:equivalentClass _:N9a9e7f316d5644729782af5415179e13 ;
+    owl:onProperty :amount ;
+    owl:sameAs _:N9a9e7f316d5644729782af5415179e13 ;
+    owl:someValuesFrom xsd:double .
+
+_:Ne51e7165eee2476abfff0bf62ae6f1ef a owl:Restriction ;
+    rdfs:subClassOf _:Ne51e7165eee2476abfff0bf62ae6f1ef ;
+    owl:equivalentClass _:Ne51e7165eee2476abfff0bf62ae6f1ef ;
+    owl:onProperty :amountCurrency ;
+    owl:sameAs _:Ne51e7165eee2476abfff0bf62ae6f1ef ;
+    owl:someValuesFrom :Currency .
+
+_:Nfd2a6adc91064cde86a1c7bfd25b7348 a owl:Restriction ;
+    rdfs:subClassOf _:Nfd2a6adc91064cde86a1c7bfd25b7348 ;
+    owl:allValuesFrom _:N3345e67980b94677b09a29ce405c9155 ;
+    owl:equivalentClass _:Nfd2a6adc91064cde86a1c7bfd25b7348 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Nfd2a6adc91064cde86a1c7bfd25b7348 .
+
+_:N1bd6aa0334934b4d9f74792a7356f867 a owl:Class ;
+    rdfs:subClassOf _:N1bd6aa0334934b4d9f74792a7356f867,
+        _:N2449cd45881d4702af9a47ffdfc31d23,
+        _:N506e6ac2cf924a6eaa0ae1caaaeb12a6,
+        _:N596b203d2660474da3ef25ff593f09ee,
+        _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e,
+        :Food,
+        :MenuItem,
+        :Pizza,
+        :PizzaByStyle,
+        :VegetarianPizza,
+        owl:Thing ;
+    owl:equivalentClass _:N1bd6aa0334934b4d9f74792a7356f867,
+        :VegetarianPizza ;
+    owl:intersectionOf _:N1d02a98b1fd04bce8d92f09f89624def ;
+    owl:sameAs _:N1bd6aa0334934b4d9f74792a7356f867 .
+
+_:N295ea8851b27406db6d5016859901f34 a owl:Restriction ;
+    rdfs:subClassOf _:N295ea8851b27406db6d5016859901f34,
+        _:Na846e5df632f4fb3a9eb83fe65a14de3,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd816f1fd3f0f4233912ba8624739baef ;
+    owl:equivalentClass _:N295ea8851b27406db6d5016859901f34,
+        _:Na846e5df632f4fb3a9eb83fe65a14de3 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N295ea8851b27406db6d5016859901f34 ;
+    owl:someValuesFrom :Pineapple .
+
+_:Na846e5df632f4fb3a9eb83fe65a14de3 a owl:Restriction ;
+    rdfs:subClassOf _:N295ea8851b27406db6d5016859901f34,
+        _:Na846e5df632f4fb3a9eb83fe65a14de3,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd816f1fd3f0f4233912ba8624739baef ;
+    owl:equivalentClass _:N295ea8851b27406db6d5016859901f34,
+        _:Na846e5df632f4fb3a9eb83fe65a14de3 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Na846e5df632f4fb3a9eb83fe65a14de3 ;
+    owl:someValuesFrom :Pineapple .
+
+_:N00d2b6d316bf44c1b0a8fe58bd272a6d a owl:Restriction ;
+    rdfs:subClassOf _:N00d2b6d316bf44c1b0a8fe58bd272a6d ;
+    owl:equivalentClass _:N00d2b6d316bf44c1b0a8fe58bd272a6d ;
+    owl:onProperty :postCode ;
+    owl:sameAs _:N00d2b6d316bf44c1b0a8fe58bd272a6d ;
+    owl:someValuesFrom xsd:string .
+
+_:N3abed24447964141af52741ea6ad1737 a owl:Restriction ;
+    rdfs:subClassOf _:N3abed24447964141af52741ea6ad1737,
+        _:N6d86ac76a2894760a540c0e4e3e88237,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:equivalentClass _:N3abed24447964141af52741ea6ad1737,
+        _:N6d86ac76a2894760a540c0e4e3e88237 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N3abed24447964141af52741ea6ad1737 ;
+    owl:someValuesFrom :Beans .
+
+_:N6a6ba520912443bebb3752a67a4e36c6 a owl:Restriction ;
+    rdfs:subClassOf _:N6a6ba520912443bebb3752a67a4e36c6,
+        _:Nb3c6cb428d004feb94e435ee1c6e7f9b,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19 ;
+    owl:equivalentClass _:N6a6ba520912443bebb3752a67a4e36c6,
+        _:Nb3c6cb428d004feb94e435ee1c6e7f9b ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N6a6ba520912443bebb3752a67a4e36c6 ;
+    owl:someValuesFrom :Feta .
+
+_:N7bddde250a534bb2855cdefb526ce4e5 a owl:Class ;
+    rdfs:subClassOf _:N7bddde250a534bb2855cdefb526ce4e5,
+        owl:Thing ;
+    owl:equivalentClass _:N7bddde250a534bb2855cdefb526ce4e5 ;
+    owl:sameAs _:N7bddde250a534bb2855cdefb526ce4e5 ;
+    owl:unionOf _:Ne63f30485a1a460cb2a1855fe7b09c5c .
+
+_:Nc1eecc0b1f304a799e48346360ca172c a owl:Restriction ;
+    rdfs:subClassOf _:Nc1eecc0b1f304a799e48346360ca172c ;
+    owl:equivalentClass _:Nc1eecc0b1f304a799e48346360ca172c ;
+    owl:onProperty :locatedInCity ;
+    owl:sameAs _:Nc1eecc0b1f304a799e48346360ca172c ;
+    owl:someValuesFrom :City .
+
+_:Ne6f532c3e9444771882676a9e1a2c433 a owl:Restriction ;
+    rdfs:subClassOf _:Ne6f532c3e9444771882676a9e1a2c433 ;
+    owl:equivalentClass _:Ne6f532c3e9444771882676a9e1a2c433 ;
+    owl:onProperty :firstLineAddress ;
+    owl:sameAs _:Ne6f532c3e9444771882676a9e1a2c433 ;
+    owl:someValuesFrom xsd:string .
+
+_:N2449cd45881d4702af9a47ffdfc31d23 a owl:Restriction ;
+    rdfs:subClassOf _:N2449cd45881d4702af9a47ffdfc31d23 ;
+    owl:allValuesFrom :VegetarianIngredient ;
+    owl:equivalentClass _:N2449cd45881d4702af9a47ffdfc31d23 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N2449cd45881d4702af9a47ffdfc31d23 .
+
+_:N6d86ac76a2894760a540c0e4e3e88237 a owl:Restriction ;
+    rdfs:subClassOf _:N3abed24447964141af52741ea6ad1737,
+        _:N6d86ac76a2894760a540c0e4e3e88237,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:equivalentClass _:N3abed24447964141af52741ea6ad1737,
+        _:N6d86ac76a2894760a540c0e4e3e88237 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N6d86ac76a2894760a540c0e4e3e88237 ;
+    owl:someValuesFrom :Beans .
+
+_:Nb3c6cb428d004feb94e435ee1c6e7f9b a owl:Restriction ;
+    rdfs:subClassOf _:N6a6ba520912443bebb3752a67a4e36c6,
+        _:Nb3c6cb428d004feb94e435ee1c6e7f9b,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19 ;
+    owl:equivalentClass _:N6a6ba520912443bebb3752a67a4e36c6,
+        _:Nb3c6cb428d004feb94e435ee1c6e7f9b ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Nb3c6cb428d004feb94e435ee1c6e7f9b ;
+    owl:someValuesFrom :Feta .
+
+_:Necf9a7a220ee4de79051f3de7837ea93 a owl:Restriction ;
+    rdfs:subClassOf _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19,
+        _:Necf9a7a220ee4de79051f3de7837ea93,
+        _:Nf2c9af8bd4844523a661984b4d025f77 ;
+    owl:equivalentClass _:Necf9a7a220ee4de79051f3de7837ea93,
+        _:Nf2c9af8bd4844523a661984b4d025f77 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Necf9a7a220ee4de79051f3de7837ea93 ;
+    owl:someValuesFrom :Mozzarella .
+
+_:Nf2c9af8bd4844523a661984b4d025f77 a owl:Restriction ;
+    rdfs:subClassOf _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19,
+        _:Necf9a7a220ee4de79051f3de7837ea93,
+        _:Nf2c9af8bd4844523a661984b4d025f77 ;
+    owl:equivalentClass _:Necf9a7a220ee4de79051f3de7837ea93,
+        _:Nf2c9af8bd4844523a661984b4d025f77 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Nf2c9af8bd4844523a661984b4d025f77 ;
+    owl:someValuesFrom :Mozzarella .
+
+_:Nd816f1fd3f0f4233912ba8624739baef a owl:Restriction ;
+    rdfs:subClassOf _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd816f1fd3f0f4233912ba8624739baef ;
+    owl:equivalentClass _:Nd816f1fd3f0f4233912ba8624739baef ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Nd816f1fd3f0f4233912ba8624739baef ;
+    owl:someValuesFrom :Fruit .
+
+_:Nba0a789eccae45ed811526493a8d53fd a owl:Restriction ;
+    rdfs:subClassOf _:Nba0a789eccae45ed811526493a8d53fd,
+        _:Ndca1a9f07e1a44b9bd0f91eb287c2083 ;
+    owl:equivalentClass _:Nba0a789eccae45ed811526493a8d53fd,
+        _:Ndca1a9f07e1a44b9bd0f91eb287c2083 ;
+    owl:onProperty :locatedInCountry ;
+    owl:sameAs _:Nba0a789eccae45ed811526493a8d53fd ;
+    owl:someValuesFrom :Country .
+
+_:Ndca1a9f07e1a44b9bd0f91eb287c2083 a owl:Restriction ;
+    rdfs:subClassOf _:Nba0a789eccae45ed811526493a8d53fd,
+        _:Ndca1a9f07e1a44b9bd0f91eb287c2083 ;
+    owl:equivalentClass _:Nba0a789eccae45ed811526493a8d53fd,
+        _:Ndca1a9f07e1a44b9bd0f91eb287c2083 ;
+    owl:onProperty :locatedInCountry ;
+    owl:sameAs _:Ndca1a9f07e1a44b9bd0f91eb287c2083 ;
+    owl:someValuesFrom :Country .
+
+_:N3453482f000942f09d0fac0d35ee7b57 a owl:Restriction ;
+    rdfs:subClassOf _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N8bb554679b32466186e1134c73d66a26,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:equivalentClass _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N8bb554679b32466186e1134c73d66a26 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N3453482f000942f09d0fac0d35ee7b57 ;
+    owl:someValuesFrom :TomatoSauce .
+
+_:N3bd7df0d6e3c4235b6a17096b26f8fbf a owl:Restriction ;
+    rdfs:subClassOf _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N8bb554679b32466186e1134c73d66a26,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:equivalentClass _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N8bb554679b32466186e1134c73d66a26 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N3bd7df0d6e3c4235b6a17096b26f8fbf ;
+    owl:someValuesFrom :TomatoSauce .
+
+_:N8bb554679b32466186e1134c73d66a26 a owl:Restriction ;
+    rdfs:subClassOf _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N8bb554679b32466186e1134c73d66a26,
+        _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:equivalentClass _:N3453482f000942f09d0fac0d35ee7b57,
+        _:N3bd7df0d6e3c4235b6a17096b26f8fbf,
+        _:N8bb554679b32466186e1134c73d66a26 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:N8bb554679b32466186e1134c73d66a26 ;
+    owl:someValuesFrom :TomatoSauce .
+
+_:Ndd0f301c75764e218132f8d33e9220a5 a owl:Restriction ;
+    rdfs:subClassOf _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Ndd0f301c75764e218132f8d33e9220a5 ;
+    owl:equivalentClass _:Ndd0f301c75764e218132f8d33e9220a5 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Ndd0f301c75764e218132f8d33e9220a5 ;
+    owl:someValuesFrom :Meat .
+
+_:Nd65e4810a9c3471489bd5d0119c56f19 a owl:Restriction ;
+    rdfs:subClassOf _:Nd47ea5e88e2c4f0387243a10e3cb1c13,
+        _:Nd65e4810a9c3471489bd5d0119c56f19 ;
+    owl:equivalentClass _:Nd65e4810a9c3471489bd5d0119c56f19 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Nd65e4810a9c3471489bd5d0119c56f19 ;
+    owl:someValuesFrom :Cheese .
+
+_:N3345e67980b94677b09a29ce405c9155 a owl:Class ;
+    rdfs:subClassOf _:N3345e67980b94677b09a29ce405c9155,
+        owl:Thing ;
+    owl:equivalentClass _:N3345e67980b94677b09a29ce405c9155 ;
+    owl:sameAs _:N3345e67980b94677b09a29ce405c9155 ;
+    owl:unionOf _:N24d8d448e6d04825aa4bead51883f7eb .
+
+_:N7c5027843f5b460296de2475b166446e a owl:Restriction ;
+    rdfs:subClassOf _:N7c5027843f5b460296de2475b166446e ;
+    owl:equivalentClass _:N7c5027843f5b460296de2475b166446e ;
+    owl:onProperty :locatedInAdress ;
+    owl:sameAs _:N7c5027843f5b460296de2475b166446e ;
+    owl:someValuesFrom :Address .
+
+_:Nd0809839f8e94027b6f0ba16a86c4706 a owl:Restriction ;
+    rdfs:subClassOf _:Nd0809839f8e94027b6f0ba16a86c4706 ;
+    owl:equivalentClass _:Nd0809839f8e94027b6f0ba16a86c4706 ;
+    owl:onProperty :restaurantName ;
+    owl:sameAs _:Nd0809839f8e94027b6f0ba16a86c4706 ;
+    owl:someValuesFrom xsd:string .
+
+_:Nf512c22718e44725a4a14349801b8064 a owl:Restriction ;
+    rdfs:subClassOf _:Nf512c22718e44725a4a14349801b8064 ;
+    owl:equivalentClass _:Nf512c22718e44725a4a14349801b8064 ;
+    owl:onProperty :servesMenuItem ;
+    owl:sameAs _:Nf512c22718e44725a4a14349801b8064 ;
+    owl:someValuesFrom :MenuItem .
+
+_:N506e6ac2cf924a6eaa0ae1caaaeb12a6 a owl:Restriction ;
+    rdfs:subClassOf _:N506e6ac2cf924a6eaa0ae1caaaeb12a6 ;
+    owl:equivalentClass _:N506e6ac2cf924a6eaa0ae1caaaeb12a6 ;
+    owl:onProperty :servedInRestaurant ;
+    owl:sameAs _:N506e6ac2cf924a6eaa0ae1caaaeb12a6 ;
+    owl:someValuesFrom :Restaurant .
+
+_:N596b203d2660474da3ef25ff593f09ee a owl:Restriction ;
+    rdfs:subClassOf _:N596b203d2660474da3ef25ff593f09ee ;
+    owl:equivalentClass _:N596b203d2660474da3ef25ff593f09ee ;
+    owl:onProperty :itemName ;
+    owl:sameAs _:N596b203d2660474da3ef25ff593f09ee ;
+    owl:someValuesFrom xsd:string .
+
+_:Na0bd314f90b2444aa299cb6ff3c7e3d8 a owl:Restriction ;
+    rdfs:subClassOf _:Na0bd314f90b2444aa299cb6ff3c7e3d8 ;
+    owl:allValuesFrom :Location ;
+    owl:equivalentClass _:Na0bd314f90b2444aa299cb6ff3c7e3d8 ;
+    owl:onProperty :locatedIn ;
+    owl:sameAs _:Na0bd314f90b2444aa299cb6ff3c7e3d8 .
+
+_:Nf58ac8a9c0114a478ab574fabf7d01e6 a owl:Restriction ;
+    rdfs:subClassOf _:Nf58ac8a9c0114a478ab574fabf7d01e6 ;
+    owl:allValuesFrom :Location ;
+    owl:equivalentClass _:Nf58ac8a9c0114a478ab574fabf7d01e6 ;
+    owl:onProperty :hasLocation ;
+    owl:sameAs _:Nf58ac8a9c0114a478ab574fabf7d01e6 .
+
+_:Nd47ea5e88e2c4f0387243a10e3cb1c13 a owl:Restriction ;
+    rdfs:subClassOf _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:equivalentClass _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:onProperty :hasIngredient ;
+    owl:sameAs _:Nd47ea5e88e2c4f0387243a10e3cb1c13 ;
+    owl:someValuesFrom :Ingredient .
+
+_:N61cfcbb9f4904986aae0612e9d90842e a owl:Restriction ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e ;
+    owl:equivalentClass _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e ;
+    owl:onProperty :hasValue ;
+    owl:sameAs _:N61cfcbb9f4904986aae0612e9d90842e ;
+    owl:someValuesFrom :ItemValue .
+
+_:Nf275cf8f28dc4a89b78bed8a35dc1f0e a owl:Restriction ;
+    rdfs:subClassOf _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e ;
+    owl:equivalentClass _:N61cfcbb9f4904986aae0612e9d90842e,
+        _:Nf275cf8f28dc4a89b78bed8a35dc1f0e ;
+    owl:onProperty :hasValue ;
+    owl:sameAs _:Nf275cf8f28dc4a89b78bed8a35dc1f0e ;
+    owl:someValuesFrom :ItemValue .
+
